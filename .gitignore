@@ -1,4 +1,5 @@
 /source/*.jar
+/.claude/*.local.*
 
 ### https://github.com/github/gitignore/blob/main/Java.gitignore
 # Compiled class file
