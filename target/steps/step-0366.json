@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 366,
+  "reasoning" : "Animation index into tileSprite set by the tile-draw helpers (e.g. 12/13/14, mask 31) and reset to -1 when the tile has no sprite.",
+  "className" : "cGame",
+  "oldName" : "field_285",
+  "newName" : "tileAnimId",
+  "description" : "Rename cGame class's field_285 field to tileAnimId"
+}

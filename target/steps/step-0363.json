@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 363,
+  "reasoning" : "Set in drawLevelTiles as tileX * 24 minus the camera offset and used as the draw X of the current tile's sprite.",
+  "className" : "cGame",
+  "oldName" : "field_271",
+  "newName" : "tileScreenX",
+  "description" : "Rename cGame class's field_271 field to tileScreenX"
+}

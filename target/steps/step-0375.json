@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 375,
+  "reasoning" : "Used for tile type 44: selects sprites[27] and takes the animation id from bits 3-5 of the packed tile word, then sets the frame from the step counter.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_160",
+  "newName" : "prepareSprite27TileAnim",
+  "description" : "Rename cGame class's method_160() method to prepareSprite27TileAnim"
+}

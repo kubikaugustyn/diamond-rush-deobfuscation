@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 362,
+  "reasoning" : "Set to 264 in initBackgroundBuffer as the height of offscreenImage and used as the vertical wrap modulus for the background and tile redraw.",
+  "className" : "cGame",
+  "oldName" : "field_397",
+  "newName" : "bufferHeight",
+  "description" : "Rename cGame class's field_397 field to bufferHeight"
+}

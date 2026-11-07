@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 377,
+  "reasoning" : "Draws the spriteImages[18] badge images at (x, y) and, unless compact, the field_156 diamonds-remaining count with drawNumber (field_156 is decremented in collectDiamond).",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "boolean" ],
+  "oldName" : "method_162",
+  "newName" : "drawRemainingDiamondsBadge",
+  "description" : "Rename cGame class's method_162() method to drawRemainingDiamondsBadge"
+}

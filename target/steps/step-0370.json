@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 370,
+  "reasoning" : "Passed as the flip/flags argument of drawFrame for the current tile sprite and reset to 0 after each tile.",
+  "className" : "cGame",
+  "oldName" : "field_290",
+  "newName" : "tileDrawFlags",
+  "description" : "Rename cGame class's field_290 field to tileDrawFlags"
+}

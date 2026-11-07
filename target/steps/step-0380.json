@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 380,
+  "reasoning" : "For tile types 14 and 33 draws the chest sprite (sprites[8] or [22], the same ones updateChestAnimation uses) at the tile position with the frame stored in the tile word.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_165",
+  "newName" : "drawChestTile",
+  "description" : "Rename cGame class's method_165() method to drawChestTile"
+}

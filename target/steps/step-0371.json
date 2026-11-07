@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 371,
+  "reasoning" : "Used for tile type 48: selects sprites[32], picks a frame from the movement direction bits and sets the draw offsets from the direction table times the step in field_335.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_155",
+  "newName" : "prepareSlidingTileDraw",
+  "description" : "Rename cGame class's method_155() method to prepareSlidingTileDraw"
+}

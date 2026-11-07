@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 369,
+  "reasoning" : "Per-tile pixel offset added to tileScreenY when drawing the tile sprite, the vertical counterpart of tileDrawOffsetX.",
+  "className" : "cGame",
+  "oldName" : "field_289",
+  "newName" : "tileDrawOffsetY",
+  "description" : "Rename cGame class's field_289 field to tileDrawOffsetY"
+}

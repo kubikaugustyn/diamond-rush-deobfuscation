@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 365,
+  "reasoning" : "Static ASprite chosen per tile type in the tile-draw helpers (sprites[27], [29], [30], [32]...) and drawn with tileAnimId/tileAnimFrame; nulled when the tile has no sprite.",
+  "className" : "cGame",
+  "oldName" : "field_324",
+  "newName" : "tileSprite",
+  "description" : "Rename cGame class's field_324 field to tileSprite"
+}

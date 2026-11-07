@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 387,
+  "reasoning" : "Steps from a beam end along its row in one direction while cells are empty, type 31 or convertible, and returns the last column the laser reaches before a blocking tile or level edge.",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "int", "int" ],
+  "oldName" : "findPlatformEnd",
+  "newName" : "findLaserEnd",
+  "description" : "Rename cGame class's findPlatformEnd() method to findLaserEnd"
+}

@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 389,
+  "reasoning" : "Each frame, for every active beam it re-extends both ends with findLaserEnd and applies the laser to every cell the beam covers.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "updateMovingPlatforms",
+  "newName" : "updateLaserBeams",
+  "description" : "Rename cGame class's updateMovingPlatforms() method to updateLaserBeams"
+}

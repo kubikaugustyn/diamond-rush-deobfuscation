@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 383,
+  "reasoning" : "Used for tile types 22 and 23: positions spriteInstances[4] at the tile (flipped for 23, shifted 24px for 22), applies its animation offset and paints it.",
+  "className" : "cGame",
+  "signature" : [ "byte" ],
+  "oldName" : "method_169",
+  "newName" : "paintSideFacingTile",
+  "description" : "Rename cGame class's method_169() method to paintSideFacingTile"
+}

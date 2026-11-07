@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 381,
+  "reasoning" : "Used for tile type 18: selects sprites[6] animation 0 and a frame from the switch transition field_310 and direction sign field_311 (the state toggled by activateSwitch).",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_167",
+  "newName" : "prepareSwitchTileDraw",
+  "description" : "Rename cGame class's method_167() method to prepareSwitchTileDraw"
+}

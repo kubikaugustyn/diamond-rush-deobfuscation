@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 382,
+  "reasoning" : "Used for tile type 36: draws sprites[5] directly, choosing animation 0 or 1 from the tile word and cycling frames with frameCounter.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_168",
+  "newName" : "drawSprite5LoopTile",
+  "description" : "Rename cGame class's method_168() method to drawSprite5LoopTile"
+}

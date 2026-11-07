@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 376,
+  "reasoning" : "Used for tile type 12: forwards to the badge drawer at the current tile's screen position without the compact variant.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_161",
+  "newName" : "drawRemainingDiamondsAtTile",
+  "description" : "Rename cGame class's method_161() method to drawRemainingDiamondsAtTile"
+}

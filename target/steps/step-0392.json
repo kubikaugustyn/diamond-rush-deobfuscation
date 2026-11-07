@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 392,
+  "reasoning" : "Maps the tile types the laser can hit (1, 19, 43, 45, 46, 49) to codes 34-39, which draw sprites[34..39] frame 0 while the tile is type 9 and are reverted when the beam leaves, so it is the frozen-version code.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "getConvertibleTileCode",
+  "newName" : "getFrozenTileCode",
+  "description" : "Rename cGame class's getConvertibleTileCode() method to getFrozenTileCode"
+}

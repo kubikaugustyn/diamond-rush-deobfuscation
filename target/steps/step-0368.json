@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 368,
+  "reasoning" : "Per-tile pixel offset added to tileScreenX when drawing the tile sprite; computed from tile movement data or animation frame offsets.",
+  "className" : "cGame",
+  "oldName" : "field_288",
+  "newName" : "tileDrawOffsetX",
+  "description" : "Rename cGame class's field_288 field to tileDrawOffsetX"
+}

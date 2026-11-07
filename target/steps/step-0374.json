@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 374,
+  "reasoning" : "Used for tile type 46: selects sprites[29] and reads the animation id (low 5 bits) and elapsed time (bits 5-12) from the packed tile word to pick the frame and offsets.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_159",
+  "newName" : "preparePackedTileAnim",
+  "description" : "Rename cGame class's method_159() method to preparePackedTileAnim"
+}

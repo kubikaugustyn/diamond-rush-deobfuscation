@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 364,
+  "reasoning" : "Set in drawLevelTiles as tileY * 24 minus the camera offset and used as the draw Y of the current tile's sprite.",
+  "className" : "cGame",
+  "oldName" : "field_272",
+  "newName" : "tileScreenY",
+  "description" : "Rename cGame class's field_272 field to tileScreenY"
+}

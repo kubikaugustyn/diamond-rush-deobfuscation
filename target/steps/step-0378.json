@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 378,
+  "reasoning" : "Decremented in collectDiamond and drawn as the diamonds-remaining count in the badge and HUD change check.",
+  "className" : "cGame",
+  "oldName" : "field_156",
+  "newName" : "remainingDiamonds",
+  "description" : "Rename cGame class's field_156 field to remainingDiamonds"
+}

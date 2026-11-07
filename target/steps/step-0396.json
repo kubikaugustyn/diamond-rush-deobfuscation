@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 396,
+  "reasoning" : "Used for tile types 19 and 43: selects sprites[4] or sprites[21], applies the step offset along the direction bits, and picks the animation from direction or state bits (different set in world 1).",
+  "className" : "cGame",
+  "signature" : [ "byte" ],
+  "oldName" : "method_194",
+  "newName" : "prepareWalkerTileDraw",
+  "description" : "Rename cGame class's method_194() method to prepareWalkerTileDraw"
+}

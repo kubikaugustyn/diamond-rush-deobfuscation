@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 394,
+  "reasoning" : "Switch on the tile type (0-9, 47) choosing the image or sprite, applies the movement step offset along the direction bits, and adds the unsupported-tile shake; type 9 draws sprites[code] frame 0, the frozen look.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_192",
+  "newName" : "prepareMovableTileDraw",
+  "description" : "Rename cGame class's method_192() method to prepareMovableTileDraw"
+}

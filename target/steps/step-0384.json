@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 384,
+  "reasoning" : "Byte triplets (left end column, right end column, row) allocated per type-48 emitter; the beam grows to the nearest blocking tile, is drawn as blue lines with an impact animation, and row -1 means the beam is off.",
+  "className" : "cGame",
+  "oldName" : "field_192",
+  "newName" : "laserBeams",
+  "description" : "Rename cGame class's field_192 field to laserBeams"
+}

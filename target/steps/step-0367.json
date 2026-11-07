@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 367,
+  "reasoning" : "Frame index within tileAnimId, computed with getAnimFrameForTime or fixed per case in the tile-draw helpers and passed to drawFrame.",
+  "className" : "cGame",
+  "oldName" : "field_286",
+  "newName" : "tileAnimFrame",
+  "description" : "Rename cGame class's field_286 field to tileAnimFrame"
+}

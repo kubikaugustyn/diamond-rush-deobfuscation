@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 388,
+  "reasoning" : "True when the column is directly outside the left or right end of an active beam on the given row, i.e. the cell where the laser stops.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "isBesideMovingPlatform",
+  "newName" : "isNextToLaserBeamEnd",
+  "description" : "Rename cGame class's isBesideMovingPlatform() method to isNextToLaserBeamEnd"
+}

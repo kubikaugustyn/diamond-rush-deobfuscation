@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 379,
+  "reasoning" : "Sets the overlay image id to 20 and picks an animated frame when the tile's counter (field_332 >> 8) reaches field_207, otherwise frame 7.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_164",
+  "newName" : "prepareThresholdTileImage",
+  "description" : "Rename cGame class's method_164() method to prepareThresholdTileImage"
+}

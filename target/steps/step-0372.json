@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 372,
+  "reasoning" : "Selects sprites[30], animation 1 and a frame from frameCounter modulo the animation length, so tile types 35 and 37 loop their animation.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_157",
+  "newName" : "prepareLoopingTileAnim",
+  "description" : "Rename cGame class's method_157() method to prepareLoopingTileAnim"
+}

@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 373,
+  "reasoning" : "Used for tile type 21: selects sprites[29] and chooses the frame and draw offsets from the direction bits (1-4), using a different animation set when the moving flag (8) is set.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_158",
+  "newName" : "prepareDirectionalTileAnim",
+  "description" : "Rename cGame class's method_158() method to prepareDirectionalTileAnim"
+}

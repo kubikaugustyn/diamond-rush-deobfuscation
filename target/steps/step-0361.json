@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 361,
+  "reasoning" : "Set to 264 in initBackgroundBuffer as the width of offscreenImage and used as the horizontal wrap modulus for the background and tile redraw.",
+  "className" : "cGame",
+  "oldName" : "field_396",
+  "newName" : "bufferWidth",
+  "description" : "Rename cGame class's field_396 field to bufferWidth"
+}

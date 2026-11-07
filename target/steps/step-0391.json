@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 391,
+  "reasoning" : "For the type-48 emitter at the current tile it picks the adjacent cell from the facing bits and either restarts its laserBeams entry there (if the cell is empty) or switches the beam off with row -1.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_305",
+  "newName" : "resetLaserBeamForEmitter",
+  "description" : "Rename cGame class's method_305() method to resetLaserBeamForEmitter"
+}

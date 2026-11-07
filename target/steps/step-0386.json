@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 386,
+  "reasoning" : "For each active beam it draws two blue lines and a light core line along the row, shortened at emitter ends, and animates the impact effect (sprites[2], anim 1) at the end where the beam stops.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "drawPlatformTracks",
+  "newName" : "drawLaserBeams",
+  "description" : "Rename cGame class's drawPlatformTracks() method to drawLaserBeams"
+}

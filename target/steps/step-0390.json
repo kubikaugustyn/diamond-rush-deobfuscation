@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 390,
+  "reasoning" : "Converts a convertible tile hit by the laser (sets its conversion code, marks neighbours dirty) and damages the player standing in the cell; returns whether a tile was converted.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_240",
+  "newName" : "applyLaserToCell",
+  "description" : "Rename cGame class's method_240() method to applyLaserToCell"
+}

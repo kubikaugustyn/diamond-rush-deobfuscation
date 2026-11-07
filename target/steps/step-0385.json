@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 385,
+  "reasoning" : "Incremented once per type-48 emitter found at level load and used to size laserBeams (count * 3); beam update and drawing only run when it is above 0.",
+  "className" : "cGame",
+  "oldName" : "field_193",
+  "newName" : "laserEmitterCount",
+  "description" : "Rename cGame class's field_193 field to laserEmitterCount"
+}
