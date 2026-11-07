@@ -1,0 +1,19 @@
+@server = http://localhost:8080
+
+### Get steps taken
+GET {{server}}/api/v1/steps
+
+### Start over
+POST {{server}}/api/v1/steps
+Content-Type: application/json
+
+[
+  {
+    "type": "init",
+    "reasoning": "Start over"
+  }
+]
+
+### Redo all steps (may time out, but should finish)
+POST {{server}}/api/v1/steps/redo
+
