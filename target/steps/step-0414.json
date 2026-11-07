@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 414,
+  "reasoning" : "Updates the Knight entity. The knight is 2 tiles tall and is either facing left or right. When the player approaches, he swings his sword up and down, damaging the player if he didn't leave in time. Can only be killed by boulders and the Spike ball.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_337",
+  "newName" : "updateKnight",
+  "description" : "Rename cGame class's method_337() method to updateKnight"
+}

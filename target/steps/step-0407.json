@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 407,
+  "reasoning" : "Updates the Pressure plate, because foreground 6 is a pressure plate, it checks for air and ticks doors (you need to update doors when the pressure plate is made to open and close them).",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_316",
+  "newName" : "updatePressurePlate",
+  "description" : "Rename cGame class's method_316() method to updatePressurePlate"
+}

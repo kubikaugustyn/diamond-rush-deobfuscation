@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 402,
+  "reasoning" : "Updates the fireball. The fireball hurts the player with fire upon contact. It is spawned touching a wall, and it moves in a circle, in one direction, always touching a wall. It is basically lapping around a group of blocks in the middle of a 'room' or going around the walls. It will always touch a wall.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_331",
+  "newName" : "updateFireball",
+  "description" : "Rename cGame class's method_331() method to updateFireball"
+}

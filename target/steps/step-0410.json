@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 410,
+  "reasoning" : "Checks whether the tile is a spike. A spike is a tile in Bavaria that periodically extends and retracts, hurting the player if it 'squishes' him.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "isPulseBlockedTile",
+  "newName" : "isSpikeTile",
+  "description" : "Rename cGame class's isPulseBlockedTile() method to isSpikeTile"
+}

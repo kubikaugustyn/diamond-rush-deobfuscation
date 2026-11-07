@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 405,
+  "reasoning" : "This is where the tile codes matching with the player layer reside. TODO Maybe call it differently, because there are various data types for the stage blocks and multiple arrays etc.",
+  "className" : "cGame",
+  "oldName" : "field_334",
+  "newName" : "mapPlayerLayer",
+  "description" : "Rename cGame class's field_334 field to mapPlayerLayer"
+}

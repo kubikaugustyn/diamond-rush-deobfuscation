@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 411,
+  "reasoning" : "Updates the beans tile, a block that can be broken with a mallet.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_329",
+  "newName" : "updateBeans",
+  "description" : "Rename cGame class's method_329() method to updateBeans"
+}

@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 408,
+  "reasoning" : "Updates the Torch, a tile that hurts the player when lit.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_318",
+  "newName" : "updateTorch",
+  "description" : "Rename cGame class's method_318() method to updateTorch"
+}

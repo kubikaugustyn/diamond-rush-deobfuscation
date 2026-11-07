@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 412,
+  "reasoning" : "Updates the Bomb cloth tile, destroying it ?if a bomb exploded nearby?",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_330",
+  "newName" : "updateBombCloth",
+  "description" : "Rename cGame class's method_330() method to updateBombCloth"
+}

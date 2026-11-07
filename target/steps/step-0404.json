@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 404,
+  "reasoning" : "Seems to also be called for the Bavarian Bomb as well as the Siberian Fan pot. It may be shared code for falling objects. Okay, it is also called for a boulder and a violet gem. So it is an update of a generic falling object, and a movable block.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "updateFanPot",
+  "newName" : "updateMovableFallingBlock",
+  "description" : "Rename cGame class's updateFanPot() method to updateMovableFallingBlock"
+}

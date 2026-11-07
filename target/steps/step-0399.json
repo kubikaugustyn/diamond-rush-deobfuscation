@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 399,
+  "reasoning" : "Updates the wasp that shoots a spear at the player if the player is directly next to or above it. It can shoot from multiple tiles, but cannot shoot diagonally.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "updateMovingEnemyTile",
+  "newName" : "updateWasp",
+  "description" : "Rename cGame class's updateMovingEnemyTile() method to updateWasp"
+}

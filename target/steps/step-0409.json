@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 409,
+  "reasoning" : "For context: Updates the riddle tile, which starts the 'defeat everyone' challenge.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "triggerRiddleTile",
+  "newName" : "triggerRiddleTile",
+  "description" : "Rename cGame class's triggerRiddleTile() method to triggerRiddleTile"
+}

@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 401,
+  "reasoning" : "Updates the snake. The argument is the tile code in the player layer, so 19 for a normal snake and 43 for a red one.",
+  "className" : "cGame",
+  "signature" : [ "byte" ],
+  "oldName" : "method_325",
+  "newName" : "updateSnake",
+  "description" : "Rename cGame class's method_325() method to updateSnake"
+}

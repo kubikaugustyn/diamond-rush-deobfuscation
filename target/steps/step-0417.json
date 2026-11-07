@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 417,
+  "reasoning" : "We call them tiles, not cells or blocks",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "isPassableCellType",
+  "newName" : "isPassableTileType",
+  "description" : "Rename cGame class's isPassableCellType() method to isPassableTileType"
+}

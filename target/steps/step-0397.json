@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 397,
+  "reasoning" : "Updates the icicle that animates breaking and then falling after the player steps below it",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "updateFallingObject",
+  "newName" : "updateIcicle",
+  "description" : "Rename cGame class's updateFallingObject() method to updateIcicle"
+}

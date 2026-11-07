@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 403,
+  "reasoning" : "Updates the leaves (a tile) that can be broken by the player moving into them or by using a mallet.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_332",
+  "newName" : "updateLeaves",
+  "description" : "Rename cGame class's method_332() method to updateLeaves"
+}

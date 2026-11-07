@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 415,
+  "reasoning" : "Updates the Spike tile. As described before, it extends and retracts, can only be vertical, and damages the player, not letting him through when extended. I added tile to the name, because I saw updateSpikeHeights().",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_338",
+  "newName" : "updateSpikeTile",
+  "description" : "Rename cGame class's method_338() method to updateSpikeTile"
+}

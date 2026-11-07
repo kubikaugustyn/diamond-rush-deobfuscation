@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 400,
+  "reasoning" : "Updates the fan pot that shoots a column of air vertically, moving boulders, gems, frozen entities etc. to the top (until it hits a block).",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "updateCellPhysics",
+  "newName" : "updateFanPot",
+  "description" : "Rename cGame class's updateCellPhysics() method to updateFanPot"
+}

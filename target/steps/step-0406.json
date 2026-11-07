@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 406,
+  "reasoning" : "Updates the laser shooter entity, which has falling mechanics.",
+  "className" : "cGame",
+  "signature" : [ "byte" ],
+  "oldName" : "updateFallingBlock",
+  "newName" : "updateLaserBeamEmitter",
+  "description" : "Rename cGame class's updateFallingBlock() method to updateLaserBeamEmitter"
+}

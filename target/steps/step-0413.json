@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 413,
+  "reasoning" : "Updates the Spike ball entity, an entity that moves left if the background is 4. It moves to a side, gravity applies first, kills entities in its way, and hurts the player. Stops at a wall.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_336",
+  "newName" : "updateSpikeBall",
+  "description" : "Rename cGame class's method_336() method to updateSpikeBall"
+}

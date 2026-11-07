@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 416,
+  "reasoning" : "Updates the Door bottom tile. The door is a tile with a box drawn above it by default, sometimes with a keyhole, but that's a special tile then.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_340",
+  "newName" : "updateDoorBottom",
+  "description" : "Rename cGame class's method_340() method to updateDoorBottom"
+}

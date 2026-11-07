@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 398,
+  "reasoning" : "Updates the monkey to move towards the player. The monkey is very dumb (it would be expensive to do path finding), so it just moves towards the player (so it can be stuck if there's a block between it and the player, even if it could walk around it).",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_206",
+  "newName" : "updateMonkey",
+  "description" : "Rename cGame class's method_206() method to updateMonkey"
+}
