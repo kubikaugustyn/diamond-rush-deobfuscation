@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 19,
+  "reasoning" : "field_55 stores the end index of each wrapped text line, filled by wrapText (method_33) and read by method_32.",
+  "className" : "DemoInterpreter",
+  "oldName" : "field_55",
+  "newName" : "textLineEnds",
+  "description" : "Rename DemoInterpreter class's field_55 field to textLineEnds"
+}

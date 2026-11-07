@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 261,
+  "reasoning" : "Checks the tile under the player for trigger types 13 and 16 (setting the matching flags) and sets a trigger flag when the player reaches tile (46,7).",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_284",
+  "newName" : "checkPlayerTileTriggers",
+  "methodSignature" : "cGame.method_284()",
+  "description" : "Rename cGame class's method_284() method to checkPlayerTileTriggers"
+}

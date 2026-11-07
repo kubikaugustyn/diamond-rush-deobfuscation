@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 23,
+  "reasoning" : "method_21 runs once the tick interval has elapsed and then ticks each command in the current script, so it drives the script update.",
+  "className" : "DemoInterpreter",
+  "signature" : [ ],
+  "oldName" : "method_21",
+  "newName" : "updateScript",
+  "methodSignature" : "DemoInterpreter.method_21()",
+  "description" : "Rename DemoInterpreter class's method_21() method to updateScript"
+}

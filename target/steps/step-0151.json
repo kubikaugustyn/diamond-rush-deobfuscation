@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 151,
+  "reasoning" : "Handles seal-map input: animates the arrow toward the target item, applies move directions from Define.sealMoveDirection, and on select enters a world or the level map; called from updateGameState case 27.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_75",
+  "newName" : "updateSealSelection",
+  "methodSignature" : "cGame.method_75()",
+  "description" : "Rename cGame class's method_75() method to updateSealSelection"
+}

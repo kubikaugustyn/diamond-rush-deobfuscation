@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 149,
+  "reasoning" : "Returns true when a seal item is free (index 0 or 3) or the player's stored gold (recordData shorts at 6) covers worldPrices[index]; used by seal menu and selection checks.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_73",
+  "newName" : "canAffordSealItem",
+  "methodSignature" : "cGame.method_73(int)",
+  "description" : "Rename cGame class's method_73() method to canAffordSealItem"
+}

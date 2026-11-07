@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 307,
+  "reasoning" : "On first run (preference bit 0 unset) it sets the first-run flag, marks the preference bit, and writes the preference record.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_365",
+  "newName" : "initFirstRunPreferences",
+  "methodSignature" : "cGame.method_365()",
+  "description" : "Rename cGame class's method_365() method to initFirstRunPreferences"
+}

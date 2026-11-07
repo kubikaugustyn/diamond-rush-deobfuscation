@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 356,
+  "reasoning" : "Starts a timed on-screen message: records the wrapped text, its position and colors, sets the countdown from the duration argument, and stamps the current time.",
+  "className" : "cGame",
+  "signature" : [ "java.lang.String", "int", "int", "int", "int", "int" ],
+  "oldName" : "method_437",
+  "newName" : "showTimedMessage",
+  "methodSignature" : "cGame.method_437(java.lang.String, int, int, int, int, int)",
+  "description" : "Rename cGame class's method_437() method to showTimedMessage"
+}

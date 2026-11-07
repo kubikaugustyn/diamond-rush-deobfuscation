@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 355,
+  "reasoning" : "Decrements the countdown field_567 by the elapsed milliseconds since the last tick and calls method_438(true) when it reaches zero.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_436",
+  "newName" : "tickCountdown",
+  "methodSignature" : "cGame.method_436()",
+  "description" : "Rename cGame class's method_436() method to tickCountdown"
+}

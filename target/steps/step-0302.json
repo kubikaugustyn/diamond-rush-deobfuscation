@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 302,
+  "reasoning" : "Per-cell physics step for pushable and falling objects: it applies gravity-like movement, pushing into free neighbors, crush checks against the player, and the boulder sound (SOUND_SFX_BOULDER).",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_351",
+  "newName" : "updateCellPhysics",
+  "methodSignature" : "cGame.method_351()",
+  "description" : "Rename cGame class's method_351() method to updateCellPhysics"
+}

@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 13,
+  "reasoning" : "field_49 is the dialog box Y position, set by command 12 and used when drawing the dialog in method_22.",
+  "className" : "DemoInterpreter",
+  "oldName" : "field_49",
+  "newName" : "dialogY",
+  "description" : "Rename DemoInterpreter class's field_49 field to dialogY"
+}

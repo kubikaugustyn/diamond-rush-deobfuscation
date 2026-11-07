@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 333,
+  "reasoning" : "Per-frame draw/update for the level-select map: draws the map image and calls the cursor, path, label and stats helpers while the map is in redraw state.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_412",
+  "newName" : "renderLevelMap",
+  "methodSignature" : "cGame.method_412()",
+  "description" : "Rename cGame class's method_412() method to renderLevelMap"
+}

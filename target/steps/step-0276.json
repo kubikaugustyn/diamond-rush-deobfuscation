@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 276,
+  "reasoning" : "Plays the working sound and, for each trigger tile (type 17) with the given id, arms the boulder above (type 7) or resets the tile above (types 14/33).",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_303",
+  "newName" : "activateTriggerGroup",
+  "methodSignature" : "cGame.method_303(int)",
+  "description" : "Rename cGame class's method_303() method to activateTriggerGroup"
+}

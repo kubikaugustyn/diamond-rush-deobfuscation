@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 195,
+  "reasoning" : "method_151 loops over the visible tile grid and draws each tile's sprite and tile-type behavior onto the given Graphics.",
+  "className" : "cGame",
+  "signature" : [ "javax.microedition.lcdui.Graphics" ],
+  "oldName" : "method_151",
+  "newName" : "drawLevelTiles",
+  "methodSignature" : "cGame.method_151(javax.microedition.lcdui.Graphics)",
+  "description" : "Rename cGame class's method_151() method to drawLevelTiles"
+}

@@ -3,52 +3,54 @@ import javax.microedition.midlet.MIDlet;
 import javax.microedition.midlet.MIDletStateChangeException;
 
 public final class GloftDIRU extends MIDlet {
-	// $FF: renamed from: a byte[]
-	public static byte[] gameVersion = null;
-	// $FF: renamed from: a i
-	public cGame field_575;
-	// $FF: renamed from: a javax.microedition.lcdui.Display
-	public Display field_576;
 
-	public GloftDIRU() {
-		gameVersion = this.getAppProperty("MIDlet-Version").getBytes();
-		this.field_575 = new cGame(this);
-	}
+    // $FF: renamed from: a byte[]
+    public static byte[] gameVersion = null;
 
-	public final void startApp() throws MIDletStateChangeException {
-		if (this.field_576 == null) {
-			this.field_576 = Display.getDisplay(this);
-		}
+    // $FF: renamed from: a i
+    public cGame game;
 
-		this.field_576.setCurrent(this.field_575);
-		this.field_575.method_292();
-	}
+    // $FF: renamed from: a javax.microedition.lcdui.Display
+    public Display display;
 
-	public final void pauseApp() {
-		this.field_575.method_291();
-		this.notifyPaused();
-	}
+    public GloftDIRU() {
+        gameVersion = this.getAppProperty("MIDlet-Version").getBytes();
+        this.game = new cGame(this);
+    }
 
-	public final void destroyApp(boolean var1) throws MIDletStateChangeException {
-		this.notifyDestroyed();
-	}
+    public final void startApp() throws MIDletStateChangeException {
+        if (this.display == null) {
+            this.display = Display.getDisplay(this);
+        }
+        this.display.setCurrent(this.game);
+        this.game.resumeGame();
+    }
 
-	// $FF: renamed from: a () void
-	public final void method_443() {
-		cGame.method_289();
-		this.field_575.field_353.method_55(); // Release sound player resources
-		this.method_444();
+    public final void pauseApp() {
+        this.game.pauseGame();
+        this.notifyPaused();
+    }
 
-		try {
-			this.destroyApp(true);
-		} catch (MIDletStateChangeException var2) {
-		}
-	}
+    public final void destroyApp(boolean var1) throws MIDletStateChangeException {
+        this.notifyDestroyed();
+    }
 
-	// $FF: renamed from: b () void
-	private void method_444() {
-		this.field_575 = null;
-		this.field_576 = null;
-		System.gc();
-	}
+    // $FF: renamed from: a () void
+    public final void releaseAndDestroy() {
+        cGame.method_289();
+        // Release sound player resources
+        this.game.soundEngine.releaseAllPlayers();
+        this.clearReferences();
+        try {
+            this.destroyApp(true);
+        } catch (MIDletStateChangeException var2) {
+        }
+    }
+
+    // $FF: renamed from: b () void
+    private void clearReferences() {
+        this.game = null;
+        this.display = null;
+        System.gc();
+    }
 }

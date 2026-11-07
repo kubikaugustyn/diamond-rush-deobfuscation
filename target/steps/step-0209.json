@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 209,
+  "reasoning" : "method_188 draws field_318[27] particle images at positions that drift and wrap with frameCounter, which is a falling particle (rain or snow) effect.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_188",
+  "newName" : "drawFallingParticles",
+  "methodSignature" : "cGame.method_188()",
+  "description" : "Rename cGame class's method_188() method to drawFallingParticles"
+}

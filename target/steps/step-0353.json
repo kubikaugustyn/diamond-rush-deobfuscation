@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 353,
+  "reasoning" : "Credits state machine: loads the credits text from /cr.f, normalizes its line breaks, fills in the game version, and handles scroll input until the credits finish.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_434",
+  "newName" : "updateCreditsScroll",
+  "methodSignature" : "cGame.method_434()",
+  "description" : "Rename cGame class's method_434() method to updateCreditsScroll"
+}

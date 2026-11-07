@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 264,
+  "reasoning" : "Recursive flood fill that clears every connected tile of the given type in field_332, starting at (x, y) and spreading to the four neighbours.",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "byte" ],
+  "oldName" : "method_287",
+  "newName" : "clearConnectedTiles",
+  "methodSignature" : "cGame.method_287(int, int, byte)",
+  "description" : "Rename cGame class's method_287() method to clearConnectedTiles"
+}

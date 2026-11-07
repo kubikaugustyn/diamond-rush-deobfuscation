@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 150,
+  "reasoning" : "Builds and shows the popup for pending unlock messages (field_143 seal unlock, field_144 world message) and then clears those flags; called from updateGameState case 15.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_74",
+  "newName" : "showPendingUnlockMessages",
+  "methodSignature" : "cGame.method_74()",
+  "description" : "Rename cGame class's method_74() method to showPendingUnlockMessages"
+}

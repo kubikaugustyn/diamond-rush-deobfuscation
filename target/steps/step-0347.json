@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 347,
+  "reasoning" : "Sets the map cursor to the current level's node and marks which nodes are unlocked, the initial state for map selection.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_427",
+  "newName" : "initMapSelection",
+  "methodSignature" : "cGame.method_427()",
+  "description" : "Rename cGame class's method_427() method to initMapSelection"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 267,
+  "reasoning" : "Called from hideNotify, it records elapsed play time, flags the pause, checks whether sound was playing, and frees the player resource, so it pauses the game.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_291",
+  "newName" : "pauseGame",
+  "methodSignature" : "cGame.method_291()",
+  "description" : "Rename cGame class's method_291() method to pauseGame"
+}

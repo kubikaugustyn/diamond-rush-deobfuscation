@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 146,
+  "reasoning" : "Ping-pongs field_147/field_148 between bounds using velocities field_149/field_150; called from the intro sequence update.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_68",
+  "newName" : "updateBouncingOffset",
+  "methodSignature" : "cGame.method_68()",
+  "description" : "Rename cGame class's method_68() method to updateBouncingOffset"
+}

@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 2,
+  "reasoning" : "field_38 is a static 1000L used as the minimum interval between script ticks in method_21, so it is a tick interval in ms.",
+  "className" : "DemoInterpreter",
+  "oldName" : "field_38",
+  "newName" : "tickIntervalMs",
+  "description" : "Rename DemoInterpreter class's field_38 field to tickIntervalMs"
+}

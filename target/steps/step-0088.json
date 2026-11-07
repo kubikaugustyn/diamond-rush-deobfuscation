@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 88,
+  "reasoning" : "Assigned from getClass().getResourceAsStream and used with read, skip and close, so it is the resource input stream.",
+  "className" : "cGame",
+  "oldName" : "field_306",
+  "newName" : "resourceStream",
+  "description" : "Rename cGame class's field_306 field to resourceStream"
+}

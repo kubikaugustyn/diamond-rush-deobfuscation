@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 134,
+  "reasoning" : "field_426 is set to the current time each time field_425 is incremented, and the increment only fires when 100 ms have passed, so it is the last counter tick time.",
+  "className" : "cGame",
+  "oldName" : "field_426",
+  "newName" : "lastCounterTickMillis",
+  "description" : "Rename cGame class's field_426 field to lastCounterTickMillis"
+}

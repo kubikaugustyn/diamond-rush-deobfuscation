@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 344,
+  "reasoning" : "Map-screen input handler: direction keys move the cursor to the nearest connected node, center enters the selected level, and RSH exits to the seal screen.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_424",
+  "newName" : "handleMapInput",
+  "methodSignature" : "cGame.method_424()",
+  "description" : "Rename cGame class's method_424() method to handleMapInput"
+}

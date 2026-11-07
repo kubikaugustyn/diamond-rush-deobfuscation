@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 272,
+  "reasoning" : "Finds the demo interpreter registered under the given code in field_356, sets it as the active demo and restarts it.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_299",
+  "newName" : "restartDemoByCode",
+  "methodSignature" : "cGame.method_299(int)",
+  "description" : "Rename cGame class's method_299() method to restartDemoByCode"
+}

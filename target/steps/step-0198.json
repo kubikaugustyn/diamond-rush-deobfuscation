@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 198,
+  "reasoning" : "method_154 draws line segments with end sprites between the endpoints of each field_192 moving-platform entry, which is a track drawing for those platforms.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_154",
+  "newName" : "drawPlatformTracks",
+  "methodSignature" : "cGame.method_154()",
+  "description" : "Rename cGame class's method_154() method to drawPlatformTracks"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 203,
+  "reasoning" : "method_172 counts the items in the current menu, computes the widest label, and resets the menu scroll and selection offsets, which prepares the menu layout.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_172",
+  "newName" : "prepareMenuLayout",
+  "methodSignature" : "cGame.method_172()",
+  "description" : "Rename cGame class's method_172() method to prepareMenuLayout"
+}

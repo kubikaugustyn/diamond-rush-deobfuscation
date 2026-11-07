@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 72,
+  "reasoning" : "Static singleton assigned to 'this' in init and used as cGame.field_92.drawBackButton() by other classes.",
+  "className" : "cGame",
+  "oldName" : "field_92",
+  "newName" : "instance",
+  "description" : "Rename cGame class's field_92 field to instance"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 184,
+  "reasoning" : "Draws the tiled background with an offset and an optional overlay grid, plus the central frame at field_116/field_117.",
+  "className" : "cGame",
+  "signature" : [ "javax.microedition.lcdui.Graphics", "boolean", "int", "int" ],
+  "oldName" : "method_134",
+  "newName" : "drawTiledBackground",
+  "methodSignature" : "cGame.method_134(javax.microedition.lcdui.Graphics, boolean, int, int)",
+  "description" : "Rename cGame class's method_134() method to drawTiledBackground"
+}

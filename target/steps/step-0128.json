@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 128,
+  "reasoning" : "field_457 is set to now minus stateStartTimeMillis when the app is paused, and field_228 is restored from it on resume, so it stores the elapsed state time across a pause.",
+  "className" : "cGame",
+  "oldName" : "field_457",
+  "newName" : "pausedElapsedMillis",
+  "description" : "Rename cGame class's field_457 field to pausedElapsedMillis"
+}

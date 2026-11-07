@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 109,
+  "reasoning" : "Column index paired with field_208 into spriteImages for the image drawn above the player, so it is the overlay image column.",
+  "className" : "cGame",
+  "oldName" : "field_209",
+  "newName" : "overlayImageCol",
+  "description" : "Rename cGame class's field_209 field to overlayImageCol"
+}

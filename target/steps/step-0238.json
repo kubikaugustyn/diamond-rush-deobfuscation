@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 238,
+  "reasoning" : "Scans the 12x12 level grid field_509 for a packed entry whose field matches the given level index and returns it, or -1 if none.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_251",
+  "newName" : "findLevelRecord",
+  "methodSignature" : "cGame.method_251(int)",
+  "description" : "Rename cGame class's method_251() method to findLevelRecord"
+}

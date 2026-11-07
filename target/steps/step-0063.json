@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 63,
+  "reasoning" : "field_576 is the javax.microedition.lcdui.Display obtained in startApp.",
+  "className" : "GloftDIRU",
+  "oldName" : "field_576",
+  "newName" : "display",
+  "description" : "Rename GloftDIRU class's field_576 field to display"
+}

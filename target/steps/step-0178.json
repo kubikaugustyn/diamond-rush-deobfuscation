@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 178,
+  "reasoning" : "Reads the total red-diamond count for a level; loadLevelRedDiamondCount uses it to set levelRedDiamondCount.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_126",
+  "newName" : "getLevelRedDiamondCount",
+  "methodSignature" : "cGame.method_126(int, int)",
+  "description" : "Rename cGame class's method_126() method to getLevelRedDiamondCount"
+}

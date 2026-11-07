@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 340,
+  "reasoning" : "Draws the dotted route segments from the given map node to each connected node, using the visited bits in field_516 and the path frames, and records the segment points.",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "long", "int", "int" ],
+  "oldName" : "method_419",
+  "newName" : "drawMapPaths",
+  "methodSignature" : "cGame.method_419(int, int, long, int, int)",
+  "description" : "Rename cGame class's method_419() method to drawMapPaths"
+}

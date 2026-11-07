@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 133,
+  "reasoning" : "field_454 is set to frameCounter plus 40 and, once frameCounter passes it by 80 frames, method_183 resets tile rows 14 to 21 in column 15, so it is the frame at which that delayed tile reset happens.",
+  "className" : "cGame",
+  "oldName" : "field_454",
+  "newName" : "tileResetFrame",
+  "description" : "Rename cGame class's field_454 field to tileResetFrame"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 259,
+  "reasoning" : "Damages the player when the boss is in its slam window, the player stands on the fixed row 4 and is within the boss column range, then sets the boss contact flag.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_279",
+  "newName" : "checkBossSlamHit",
+  "methodSignature" : "cGame.method_279()",
+  "description" : "Rename cGame class's method_279() method to checkBossSlamHit"
+}

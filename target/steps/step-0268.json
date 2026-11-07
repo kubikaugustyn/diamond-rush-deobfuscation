@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 268,
+  "reasoning" : "Called from showNotify, it clears the paused flag, restores the timer base from the saved elapsed time, and switches on gameState to restore the right screen state, so it resumes the game.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_292",
+  "newName" : "resumeGame",
+  "methodSignature" : "cGame.method_292()",
+  "description" : "Rename cGame class's method_292() method to resumeGame"
+}

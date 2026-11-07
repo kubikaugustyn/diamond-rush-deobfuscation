@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 277,
+  "reasoning" : "Iterates tiles in a window around the player and applies each tile type's per-frame behaviour through the matching update method, so it updates tiles near the player.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_304",
+  "newName" : "updateTilesAroundPlayer",
+  "methodSignature" : "cGame.method_304()",
+  "description" : "Rename cGame class's method_304() method to updateTilesAroundPlayer"
+}

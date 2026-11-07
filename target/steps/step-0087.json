@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 87,
+  "reasoning" : "Declared as javax.microedition.lcdui.Graphics and passed to setClip, setColor and every drawFrame/drawImage call, so it is the active graphics context.",
+  "className" : "cGame",
+  "oldName" : "field_314",
+  "newName" : "graphics",
+  "description" : "Rename cGame class's field_314 field to graphics"
+}

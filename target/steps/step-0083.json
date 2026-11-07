@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 83,
+  "reasoning" : "Converts world positions to screen positions by subtracting it (field_185 - field_201, field_269 = ... - field_201) and is clamped toward a target, so it is the camera X.",
+  "className" : "cGame",
+  "oldName" : "field_201",
+  "newName" : "cameraX",
+  "description" : "Rename cGame class's field_201 field to cameraX"
+}

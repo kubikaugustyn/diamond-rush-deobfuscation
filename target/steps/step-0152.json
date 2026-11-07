@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 152,
+  "reasoning" : "Startup loading step selected by an index: loads MIDI and sound data for steps 0-20, then sprites, starts the sound thread and moves to gameState 9 on the final step; called from updateGameState case 8.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_76",
+  "newName" : "loadStartupStep",
+  "methodSignature" : "cGame.method_76(int)",
+  "description" : "Rename cGame class's method_76() method to loadStartupStep"
+}

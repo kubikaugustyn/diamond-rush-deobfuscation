@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 324,
+  "reasoning" : "Starts water flow at (x, y): picks a flow direction from neighboring water cells, sets the water state (field_487 = 5), plays SOUND_SFX_WATER and stores the source cell.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_397",
+  "newName" : "startWaterFlow",
+  "methodSignature" : "cGame.method_397(int, int)",
+  "description" : "Rename cGame class's method_397() method to startWaterFlow"
+}

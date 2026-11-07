@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 46,
+  "reasoning" : "method_38 loads the page sprites, images and texts and resets currentPage, so it initialises the info pages.",
+  "className" : "IGA",
+  "signature" : [ ],
+  "oldName" : "method_38",
+  "newName" : "initPages",
+  "methodSignature" : "IGA.method_38()",
+  "description" : "Rename IGA class's method_38() method to initPages"
+}

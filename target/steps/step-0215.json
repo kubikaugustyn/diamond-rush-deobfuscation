@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 215,
+  "reasoning" : "method_214 attempts to buy the given item: it checks canBuyItem, deducts the price from diamonds, saves the record, and shows the result message.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_214",
+  "newName" : "buyItem",
+  "methodSignature" : "cGame.method_214(int)",
+  "description" : "Rename cGame class's method_214() method to buyItem"
+}

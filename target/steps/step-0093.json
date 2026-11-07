@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 93,
+  "reasoning" : "Long set to System.currentTimeMillis() and compared against 3000 ms and 5000 ms timeouts, so it marks when the current state started.",
+  "className" : "cGame",
+  "oldName" : "field_228",
+  "newName" : "stateStartTimeMillis",
+  "description" : "Rename cGame class's field_228 field to stateStartTimeMillis"
+}

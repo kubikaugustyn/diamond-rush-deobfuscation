@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 50,
+  "reasoning" : "method_42 draws the current page's image, text, buttons and arrows and handles the key input, so it is the page paint method.",
+  "className" : "IGA",
+  "signature" : [ "javax.microedition.lcdui.Graphics" ],
+  "oldName" : "method_42",
+  "newName" : "drawPage",
+  "methodSignature" : "IGA.method_42(javax.microedition.lcdui.Graphics)",
+  "description" : "Rename IGA class's method_42() method to drawPage"
+}

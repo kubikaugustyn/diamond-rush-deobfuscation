@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 14,
+  "reasoning" : "field_50 is the frame drawn from demoSprites[0] inside the dialog, set by command 11.",
+  "className" : "DemoInterpreter",
+  "oldName" : "field_50",
+  "newName" : "dialogBodyFrame",
+  "description" : "Rename DemoInterpreter class's field_50 field to dialogBodyFrame"
+}

@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 105,
+  "reasoning" : "Computed from the shake timer each frame and applied as setClip(0, -field_256, ...), so it is the vertical screen shake offset.",
+  "className" : "cGame",
+  "oldName" : "field_256",
+  "newName" : "screenShakeOffset",
+  "description" : "Rename cGame class's field_256 field to screenShakeOffset"
+}

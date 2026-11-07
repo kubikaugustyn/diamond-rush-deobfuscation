@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 217,
+  "reasoning" : "method_217 dispatches the key input handler for the current gameState through a switch, so it is the per-state input entry point.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_217",
+  "newName" : "handleStateInput",
+  "methodSignature" : "cGame.method_217()",
+  "description" : "Rename cGame class's method_217() method to handleStateInput"
+}

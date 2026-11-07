@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 341,
+  "reasoning" : "Appends an (x, y) point to the path buffer field_544 at the current length, the helper that records dot positions for the map path.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_420",
+  "newName" : "recordMapPathPoint",
+  "methodSignature" : "cGame.method_420(int, int)",
+  "description" : "Rename cGame class's method_420() method to recordMapPathPoint"
+}

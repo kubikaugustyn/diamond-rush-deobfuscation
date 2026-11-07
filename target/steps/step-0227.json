@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 227,
+  "reasoning" : "method_230 is the hammer strike at the player's target tile: it breaks breakable tiles, plays hit sounds and vibrates on unbreakable ones, and damages nearby enemies.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_230",
+  "newName" : "handleHammerStrike",
+  "methodSignature" : "cGame.method_230(int, int)",
+  "description" : "Rename cGame class's method_230() method to handleHammerStrike"
+}

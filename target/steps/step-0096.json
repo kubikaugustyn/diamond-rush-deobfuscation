@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 96,
+  "reasoning" : "Set from playerYPos in the snapshot method, compared to playerYPos for a checkpoint-reached test, and used as the respawn target, so it is the checkpoint Y.",
+  "className" : "cGame",
+  "oldName" : "field_294",
+  "newName" : "checkpointY",
+  "description" : "Rename cGame class's field_294 field to checkpointY"
+}

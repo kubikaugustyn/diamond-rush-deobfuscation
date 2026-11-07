@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 123,
+  "reasoning" : "field_395 is the Graphics obtained from field_394.getGraphics(), so it is the offscreen buffer's graphics context.",
+  "className" : "cGame",
+  "oldName" : "field_395",
+  "newName" : "offscreenGraphics",
+  "description" : "Rename cGame class's field_395 field to offscreenGraphics"
+}

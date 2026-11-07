@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 47,
+  "reasoning" : "method_39 adds a delta to currentPage, skips a page without a link, and wraps around between 0 and 4, so it moves to another page.",
+  "className" : "IGA",
+  "signature" : [ "int" ],
+  "oldName" : "method_39",
+  "newName" : "changePage",
+  "methodSignature" : "IGA.method_39(int)",
+  "description" : "Rename IGA class's method_39() method to changePage"
+}

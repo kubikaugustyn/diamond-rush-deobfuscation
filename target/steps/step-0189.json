@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 189,
+  "reasoning" : "method_145 blits the wrapped background buffer image (field_394) at an offset, one segment of the scrolling background.",
+  "className" : "cGame",
+  "signature" : [ "javax.microedition.lcdui.Graphics", "int", "int", "int", "int" ],
+  "oldName" : "method_145",
+  "newName" : "drawBackgroundSegment",
+  "methodSignature" : "cGame.method_145(javax.microedition.lcdui.Graphics, int, int, int, int)",
+  "description" : "Rename cGame class's method_145() method to drawBackgroundSegment"
+}

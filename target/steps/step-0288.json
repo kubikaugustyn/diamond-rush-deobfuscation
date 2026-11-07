@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 288,
+  "reasoning" : "When the player stands on a riddle tile at close range, clears the input, reads the riddle id from the tile, starts the riddle state (field_342 = 1), and calls scrollCameraToTrigger for that riddle.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_319",
+  "newName" : "triggerRiddleTile",
+  "methodSignature" : "cGame.method_319()",
+  "description" : "Rename cGame class's method_319() method to triggerRiddleTile"
+}

@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 90,
+  "reasoning" : "Array of ASpriteInstance created with new ASpriteInstance(loadGfxFile(\"/ui.f\", ...)) and given animations via SetAnim, so it holds the live sprite instances.",
+  "className" : "cGame",
+  "oldName" : "field_323",
+  "newName" : "spriteInstances",
+  "description" : "Rename cGame class's field_323 field to spriteInstances"
+}

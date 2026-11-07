@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 253,
+  "reasoning" : "Scans a 2x2 block of tiles from (x, y) and sets every empty tile (type 0) to empty (-1), returning true when any tile was cleared.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_273",
+  "newName" : "clearOpenTilesInArea",
+  "methodSignature" : "cGame.method_273(int, int)",
+  "description" : "Rename cGame class's method_273() method to clearOpenTilesInArea"
+}

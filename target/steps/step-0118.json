@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 118,
+  "reasoning" : "Set to +5 or -5 by direction and added to field_289 each frame, the vertical counterpart of field_190, so it is the vertical velocity.",
+  "className" : "cGame",
+  "oldName" : "field_191",
+  "newName" : "velocityY",
+  "description" : "Rename cGame class's field_191 field to velocityY"
+}

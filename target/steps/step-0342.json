@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 342,
+  "reasoning" : "Loops the 12x12 map-cell grid and draws each node's icon (completed, unlocked or locked) plus the world-specific bonus marker, drawing the level nodes of the map.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_421",
+  "newName" : "drawMapNodes",
+  "methodSignature" : "cGame.method_421()",
+  "description" : "Rename cGame class's method_421() method to drawMapNodes"
+}

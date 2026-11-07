@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 157,
+  "reasoning" : "Frees one demo interpreter's sprite caches, demo scripts and current script reference; used by the demo and level unload routines.",
+  "className" : "cGame",
+  "signature" : [ "DemoInterpreter" ],
+  "oldName" : "method_93",
+  "newName" : "releaseDemoInterpreter",
+  "methodSignature" : "cGame.method_93(DemoInterpreter)",
+  "description" : "Rename cGame class's method_93() method to releaseDemoInterpreter"
+}

@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 92,
+  "reasoning" : "Image[][] filled from the _modules_image of loaded sprites (field_318[8] = var6._modules_image[0]), so it holds per-sprite module images.",
+  "className" : "cGame",
+  "oldName" : "field_318",
+  "newName" : "spriteImages",
+  "description" : "Rename cGame class's field_318 field to spriteImages"
+}

@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 111,
+  "reasoning" : "Set from the height of sprite field_320[10] so it is centered vertically and used as its draw Y, so it is the centered sprite Y.",
+  "className" : "cGame",
+  "oldName" : "field_117",
+  "newName" : "centerSpriteY",
+  "description" : "Rename cGame class's field_117 field to centerSpriteY"
+}

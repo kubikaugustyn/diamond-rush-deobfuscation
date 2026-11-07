@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 283,
+  "reasoning" : "Updates a moving enemy tile (type 8 or 9 variants): steps it one tile in its direction, reverses it at the walls, and damages the player on contact.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_312",
+  "newName" : "updateMovingEnemyTile",
+  "methodSignature" : "cGame.method_312()",
+  "description" : "Rename cGame class's method_312() method to updateMovingEnemyTile"
+}

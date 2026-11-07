@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 266,
+  "reasoning" : "Enters the pause menu by setting gameState to 2, opening menu 1, reloading the menu and loading the ui sprite at index 18 if missing.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_290",
+  "newName" : "enterPauseMenu",
+  "methodSignature" : "cGame.method_290()",
+  "description" : "Rename cGame class's method_290() method to enterPauseMenu"
+}

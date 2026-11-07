@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 59,
+  "reasoning" : "method_16 advances both gem grid offsets and, when an offset wraps, shifts the grid down a row and spawns a new row with the given gem count, so it scrolls the gems.",
+  "className" : "GemsRain",
+  "signature" : [ "int" ],
+  "oldName" : "method_16",
+  "newName" : "scrollGems",
+  "methodSignature" : "GemsRain.method_16(int)",
+  "description" : "Rename GemsRain class's method_16() method to scrollGems"
+}

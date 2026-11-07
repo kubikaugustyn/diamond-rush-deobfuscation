@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 104,
+  "reasoning" : "Set to a value and checked with field_255 > 0 before computing a per-frame offset, so it is a shake timer that counts down.",
+  "className" : "cGame",
+  "oldName" : "field_255",
+  "newName" : "screenShakeTimer",
+  "description" : "Rename cGame class's field_255 field to screenShakeTimer"
+}

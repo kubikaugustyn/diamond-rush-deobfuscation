@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 49,
+  "reasoning" : "method_41 paints the red-to-blue gradient stripes of the background.",
+  "className" : "IGA",
+  "signature" : [ "javax.microedition.lcdui.Graphics" ],
+  "oldName" : "method_41",
+  "newName" : "drawBackground",
+  "methodSignature" : "IGA.method_41(javax.microedition.lcdui.Graphics)",
+  "description" : "Rename IGA class's method_41() method to drawBackground"
+}

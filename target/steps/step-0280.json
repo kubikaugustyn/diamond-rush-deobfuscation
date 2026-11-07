@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 280,
+  "reasoning" : "Static predicate that returns true for tiles a sliding object may enter: types below 80 excluding the listed non-slidable types and the gate/edge tiles.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_308",
+  "newName" : "isSlidableTile",
+  "methodSignature" : "cGame.method_308(int, int)",
+  "description" : "Rename cGame class's method_308() method to isSlidableTile"
+}

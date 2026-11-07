@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 48,
+  "reasoning" : "method_40 draws a flashing hint text (page text 8 or 9) in a red box when the page has a link, so it is a blinking hint.",
+  "className" : "IGA",
+  "signature" : [ "javax.microedition.lcdui.Graphics", "int" ],
+  "oldName" : "method_40",
+  "newName" : "drawBlinkingHint",
+  "methodSignature" : "IGA.method_40(javax.microedition.lcdui.Graphics, int)",
+  "description" : "Rename IGA class's method_40() method to drawBlinkingHint"
+}

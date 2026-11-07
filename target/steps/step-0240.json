@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 240,
+  "reasoning" : "Counts down the timer stored in the door tile at the indexed door position, plays the door sound, and opens the door (clears the timer bits) when it reaches zero.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_256",
+  "newName" : "tickDoor",
+  "methodSignature" : "cGame.method_256(int)",
+  "description" : "Rename cGame class's method_256() method to tickDoor"
+}

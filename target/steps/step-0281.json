@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 281,
+  "reasoning" : "Static predicate returning true when the tile at (x, y) is empty (type -1) and not a gate, switch or special tile, so an object may move into it.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_309",
+  "newName" : "isTileEmpty",
+  "methodSignature" : "cGame.method_309(int, int)",
+  "description" : "Rename cGame class's method_309() method to isTileEmpty"
+}

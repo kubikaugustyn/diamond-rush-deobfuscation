@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 26,
+  "reasoning" : "method_24 resets a command's completion flags and timers to their initial state, recursing into sub-scripts.",
+  "className" : "DemoInterpreter",
+  "signature" : [ "byte[]", "int" ],
+  "oldName" : "method_24",
+  "newName" : "resetCommand",
+  "methodSignature" : "DemoInterpreter.method_24(byte[], int)",
+  "description" : "Rename DemoInterpreter class's method_24() method to resetCommand"
+}

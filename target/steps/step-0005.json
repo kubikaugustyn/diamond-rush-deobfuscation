@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 5,
+  "reasoning" : "field_41 is the ASprite array loaded from demoSpr.bin and drawn by method_19 and method_22.",
+  "className" : "DemoInterpreter",
+  "oldName" : "field_41",
+  "newName" : "demoSprites",
+  "description" : "Rename DemoInterpreter class's field_41 field to demoSprites"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 343,
+  "reasoning" : "Draws the rounded stage-name label bar on the map screen with a per-world fill and border color.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_423",
+  "newName" : "drawMapStageLabel",
+  "methodSignature" : "cGame.method_423()",
+  "description" : "Rename cGame class's method_423() method to drawMapStageLabel"
+}

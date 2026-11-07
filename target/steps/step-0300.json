@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 300,
+  "reasoning" : "Returns true when the two pixel positions differ by less than 24 (one tile) on both axes, a simple proximity check.",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "int", "int" ],
+  "oldName" : "method_349",
+  "newName" : "isWithinTileDistance",
+  "methodSignature" : "cGame.method_349(int, int, int, int)",
+  "description" : "Rename cGame class's method_349() method to isWithinTileDistance"
+}

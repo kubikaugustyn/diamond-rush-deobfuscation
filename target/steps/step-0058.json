@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 58,
+  "reasoning" : "field_36 gates whether gemGridB is updated and drawn at all, so it enables the second grid.",
+  "className" : "GemsRain",
+  "oldName" : "field_36",
+  "newName" : "twoGridsEnabled",
+  "description" : "Rename GemsRain class's field_36 field to twoGridsEnabled"
+}

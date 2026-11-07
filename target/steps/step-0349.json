@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 349,
+  "reasoning" : "Public static helper that fills a rectangle with a color and draws the 9-slice border from field_319[palette], a framed panel.",
+  "className" : "cGame",
+  "signature" : [ "javax.microedition.lcdui.Graphics", "int", "int", "int", "int", "int", "int" ],
+  "oldName" : "method_429",
+  "newName" : "drawFramedPanel",
+  "methodSignature" : "cGame.method_429(javax.microedition.lcdui.Graphics, int, int, int, int, int, int)",
+  "description" : "Rename cGame class's method_429() method to drawFramedPanel"
+}

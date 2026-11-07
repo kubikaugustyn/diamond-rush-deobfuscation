@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 67,
+  "reasoning" : "method_52 creates and starts the sound playback thread, so it starts the sound thread.",
+  "className" : "cSoundEngine",
+  "signature" : [ ],
+  "oldName" : "method_52",
+  "newName" : "startSoundThread",
+  "methodSignature" : "cSoundEngine.method_52()",
+  "description" : "Rename cSoundEngine class's method_52() method to startSoundThread"
+}

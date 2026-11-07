@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 20,
+  "reasoning" : "field_56 is the number of wrapped text lines, incremented while building textLineEnds in method_33.",
+  "className" : "DemoInterpreter",
+  "oldName" : "field_56",
+  "newName" : "textLineCount",
+  "description" : "Rename DemoInterpreter class's field_56 field to textLineCount"
+}

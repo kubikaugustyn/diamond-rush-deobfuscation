@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 25,
+  "reasoning" : "method_23 resets all playback state and loads the first script, then returns it, so it starts a demo from the beginning.",
+  "className" : "DemoInterpreter",
+  "signature" : [ ],
+  "oldName" : "method_23",
+  "newName" : "restartDemo",
+  "methodSignature" : "DemoInterpreter.method_23()",
+  "description" : "Rename DemoInterpreter class's method_23() method to restartDemo"
+}

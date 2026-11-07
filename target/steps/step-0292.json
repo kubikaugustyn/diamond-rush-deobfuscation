@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 292,
+  "reasoning" : "Returns true when the tile at (x, y) is a type-28 tile or lies beside one within the pulse window, which blocks movement through it.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_323",
+  "newName" : "isPulseBlockedTile",
+  "methodSignature" : "cGame.method_323(int, int)",
+  "description" : "Rename cGame class's method_323() method to isPulseBlockedTile"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 315,
+  "reasoning" : "Writes a packed value into a 9-bit-group field of the script grid cell field_500[x][y] and marks the cell and the one below dirty, the setter paired with extractGridBits.",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "byte", "byte", "byte", "byte" ],
+  "oldName" : "method_374",
+  "newName" : "setGridBits",
+  "methodSignature" : "cGame.method_374(int, int, byte, byte, byte, byte)",
+  "description" : "Rename cGame class's method_374() method to setGridBits"
+}

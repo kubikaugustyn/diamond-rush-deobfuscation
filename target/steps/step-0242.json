@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 242,
+  "reasoning" : "Advances a boulder tile that has its falling flag set: plays the boulder sound, clears the flag, spreads the fall to neighbours, and kills the player if the boulder lands on them.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_258",
+  "newName" : "updateFallingBoulder",
+  "methodSignature" : "cGame.method_258(int, int)",
+  "description" : "Rename cGame class's method_258() method to updateFallingBoulder"
+}

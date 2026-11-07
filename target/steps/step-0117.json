@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 117,
+  "reasoning" : "Set to +5 or -5 by direction and added to field_288 each frame to move an offset, so it is the horizontal velocity.",
+  "className" : "cGame",
+  "oldName" : "field_190",
+  "newName" : "velocityX",
+  "description" : "Rename cGame class's field_190 field to velocityX"
+}

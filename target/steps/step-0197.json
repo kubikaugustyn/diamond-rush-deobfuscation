@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 197,
+  "reasoning" : "method_153 is the main level render: it updates the camera/tile window, redraws changed tiles, then draws tiles, sprites, dialogs and HUD for the current frame.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_153",
+  "newName" : "renderLevelView",
+  "methodSignature" : "cGame.method_153()",
+  "description" : "Rename cGame class's method_153() method to renderLevelView"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 350,
+  "reasoning" : "Draws a framed panel (via method_429) plus a header tab strip with its corner images, the tabbed variant of drawFramedPanel.",
+  "className" : "cGame",
+  "signature" : [ "javax.microedition.lcdui.Graphics", "int", "int", "int", "int", "int", "int", "int", "int" ],
+  "oldName" : "method_430",
+  "newName" : "drawFramedPanelWithTab",
+  "methodSignature" : "cGame.method_430(javax.microedition.lcdui.Graphics, int, int, int, int, int, int, int, int)",
+  "description" : "Rename cGame class's method_430() method to drawFramedPanelWithTab"
+}

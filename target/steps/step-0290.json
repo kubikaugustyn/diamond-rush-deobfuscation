@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 290,
+  "reasoning" : "Applies the effect of the pending pickup (field_213): adjusts gold or silver keys, life count, red diamonds or diamonds, marks the pickup collected, and triggers the matching animation and event.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_321",
+  "newName" : "applyPickupEffect",
+  "methodSignature" : "cGame.method_321()",
+  "description" : "Rename cGame class's method_321() method to applyPickupEffect"
+}

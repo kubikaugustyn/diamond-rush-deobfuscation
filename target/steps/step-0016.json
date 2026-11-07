@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 16,
+  "reasoning" : "field_52 is the frame drawn from demoSprites[1] as an icon next to the dialog, with -1 meaning none (set by commands 16-18).",
+  "className" : "DemoInterpreter",
+  "oldName" : "field_52",
+  "newName" : "dialogIconFrame",
+  "description" : "Rename DemoInterpreter class's field_52 field to dialogIconFrame"
+}

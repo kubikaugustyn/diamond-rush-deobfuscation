@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 220,
+  "reasoning" : "method_222 is triggered by the pass-levels cheat key and warps the player past the level end, or to the fixed start in world 0 level 13.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_222",
+  "newName" : "passLevelCheat",
+  "methodSignature" : "cGame.method_222()",
+  "description" : "Rename cGame class's method_222() method to passLevelCheat"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 71,
+  "reasoning" : "Copies collected pickup positions (field_173 pairs) into the level record via method_127, i.e. commits them to save data.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_246",
+  "newName" : "commitCollectedPickups",
+  "methodSignature" : "cGame.method_246()",
+  "description" : "Rename cGame class's method_246() method to commitCollectedPickups"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 314,
+  "reasoning" : "Static bit-field extractor: shifts the int by var1*9+var2 and masks var3 bits, reading a packed per-cell field of the script grid.",
+  "className" : "cGame",
+  "signature" : [ "int", "byte", "byte", "byte" ],
+  "oldName" : "method_373",
+  "newName" : "extractGridBits",
+  "methodSignature" : "cGame.method_373(int, byte, byte, byte)",
+  "description" : "Rename cGame class's method_373() method to extractGridBits"
+}

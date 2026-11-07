@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 223,
+  "reasoning" : "method_226 handles the continue choice: on confirm it restores five lives, charges 500 diamonds in the record, and enters state 15, or calls method_86 in the other mode.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_226",
+  "newName" : "handleContinueInput",
+  "methodSignature" : "cGame.method_226()",
+  "description" : "Rename cGame class's method_226() method to handleContinueInput"
+}

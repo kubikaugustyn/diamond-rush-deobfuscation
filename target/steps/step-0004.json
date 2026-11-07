@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 4,
+  "reasoning" : "field_40 holds the resource path \"/demo.f\" that method_31 reads demo scripts from.",
+  "className" : "DemoInterpreter",
+  "oldName" : "field_40",
+  "newName" : "demoScriptPath",
+  "description" : "Rename DemoInterpreter class's field_40 field to demoScriptPath"
+}

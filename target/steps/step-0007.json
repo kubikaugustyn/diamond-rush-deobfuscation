@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 7,
+  "reasoning" : "field_43 is the index of the next script in demoScripts, incremented in method_26.",
+  "className" : "DemoInterpreter",
+  "oldName" : "field_43",
+  "newName" : "scriptIndex",
+  "description" : "Rename DemoInterpreter class's field_43 field to scriptIndex"
+}

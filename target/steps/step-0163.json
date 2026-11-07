@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 163,
+  "reasoning" : "Loads levelRedDiamondCount from the record for the current world and level.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_107",
+  "newName" : "loadLevelRedDiamondCount",
+  "methodSignature" : "cGame.method_107()",
+  "description" : "Rename cGame class's method_107() method to loadLevelRedDiamondCount"
+}

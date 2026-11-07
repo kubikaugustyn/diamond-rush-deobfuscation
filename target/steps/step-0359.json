@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 359,
+  "reasoning" : "Draws the timed message box: measures the wrapped text, centers it when the position is -1, and draws the framed panel and the text.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_440",
+  "newName" : "drawTimedMessage",
+  "methodSignature" : "cGame.method_440()",
+  "description" : "Rename cGame class's method_440() method to drawTimedMessage"
+}

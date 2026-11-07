@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 94,
+  "reasoning" : "Equals the low byte of the tile value field_332[processedTileX][processedTileY] and is then switched on, so it is the processed tile's type.",
+  "className" : "cGame",
+  "oldName" : "field_284",
+  "newName" : "processedTileType",
+  "description" : "Rename cGame class's field_284 field to processedTileType"
+}

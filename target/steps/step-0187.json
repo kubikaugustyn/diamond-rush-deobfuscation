@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 187,
+  "reasoning" : "Draws the seal screen: seal items, arrow, buttons and the item name popup; called from renderGameState case 27 and calls animateSealItem.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_137",
+  "newName" : "drawSealScreen",
+  "methodSignature" : "cGame.method_137()",
+  "description" : "Rename cGame class's method_137() method to drawSealScreen"
+}

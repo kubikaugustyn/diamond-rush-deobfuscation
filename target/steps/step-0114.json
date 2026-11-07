@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 114,
+  "reasoning" : "Advanced each frame, wrapped by field_114, and passed to drawAnimFrame for field_320[55], so it is the current frame of the seal animation.",
+  "className" : "cGame",
+  "oldName" : "field_115",
+  "newName" : "sealAnimFrame",
+  "description" : "Rename cGame class's field_115 field to sealAnimFrame"
+}

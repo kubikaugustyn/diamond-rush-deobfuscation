@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 66,
+  "reasoning" : "method_51 creates a MIDI Player for the given sound id from the snd.f stream and realizes it, so it loads one sound's player.",
+  "className" : "cSoundEngine",
+  "signature" : [ "int" ],
+  "oldName" : "method_51",
+  "newName" : "loadMidiPlayer",
+  "methodSignature" : "cSoundEngine.method_51(int)",
+  "description" : "Rename cSoundEngine class's method_51() method to loadMidiPlayer"
+}

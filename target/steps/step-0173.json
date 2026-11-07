@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 173,
+  "reasoning" : "Reads the stored progress value for a world from the record.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_119",
+  "newName" : "getWorldProgress",
+  "methodSignature" : "cGame.method_119(int)",
+  "description" : "Rename cGame class's method_119() method to getWorldProgress"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 194,
+  "reasoning" : "method_150 walks a pixel rectangle tile by tile into the offscreen buffer, drawing tile images and running per-tile draw logic, so it redraws that rectangle of tiles.",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "int", "int", "boolean" ],
+  "oldName" : "method_150",
+  "newName" : "redrawTilesInRect",
+  "methodSignature" : "cGame.method_150(int, int, int, int, boolean)",
+  "description" : "Rename cGame class's method_150() method to redrawTilesInRect"
+}

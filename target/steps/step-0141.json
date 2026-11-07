@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 141,
+  "reasoning" : "field_514 is assigned field_513.getGraphics(), so it is the Graphics context of the popup buffer.",
+  "className" : "cGame",
+  "oldName" : "field_514",
+  "newName" : "popupGraphics",
+  "description" : "Rename cGame class's field_514 field to popupGraphics"
+}

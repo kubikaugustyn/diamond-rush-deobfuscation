@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 252,
+  "reasoning" : "Clears two horizontally adjacent tiles at (x, y) and (x+1, y) to empty (-1) after a bounds check, the counterpart of setTilePair.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_271",
+  "newName" : "clearTilePair",
+  "methodSignature" : "cGame.method_271(int, int)",
+  "description" : "Rename cGame class's method_271() method to clearTilePair"
+}

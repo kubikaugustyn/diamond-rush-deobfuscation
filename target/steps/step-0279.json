@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 279,
+  "reasoning" : "Per-frame update for sliding tiles of types 35 and 37 at the current tile: moves them one step down when the cell below is free, otherwise settles or cools the tile.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_307",
+  "newName" : "updateSlidingTile",
+  "methodSignature" : "cGame.method_307()",
+  "description" : "Rename cGame class's method_307() method to updateSlidingTile"
+}

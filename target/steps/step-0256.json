@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 256,
+  "reasoning" : "Clears the tile pair under the boss's target column and row by calling clearOpenTilesInArea-style scanning down to row 10, returning whether tiles were cleared.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_276",
+  "newName" : "clearTilesBelowBoss",
+  "methodSignature" : "cGame.method_276()",
+  "description" : "Rename cGame class's method_276() method to clearTilesBelowBoss"
+}

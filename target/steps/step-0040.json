@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 40,
+  "reasoning" : "field_61 holds the URL per page, read from app properties and opened by openUrl when OK is pressed; null means no action.",
+  "className" : "IGA",
+  "oldName" : "field_61",
+  "newName" : "pageActionUrls",
+  "description" : "Rename IGA class's field_61 field to pageActionUrls"
+}

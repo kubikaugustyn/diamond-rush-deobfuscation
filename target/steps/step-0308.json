@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 308,
+  "reasoning" : "Reads the 256-byte character map resource \"/mc\" into ASprite._pMapChar, used by the text-width and wrap code to map characters to glyph indices.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_360",
+  "newName" : "loadCharMap",
+  "methodSignature" : "cGame.method_360()",
+  "description" : "Rename cGame class's method_360() method to loadCharMap"
+}

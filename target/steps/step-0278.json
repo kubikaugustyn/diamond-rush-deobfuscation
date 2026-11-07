@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 278,
+  "reasoning" : "Moves the block at the player's column down one tile (flagged by the given byte type) when the tile below is empty, damages the player if they are below, and refreshes the falling record for type 48.",
+  "className" : "cGame",
+  "signature" : [ "byte" ],
+  "oldName" : "method_306",
+  "newName" : "updateFallingBlock",
+  "methodSignature" : "cGame.method_306(byte)",
+  "description" : "Rename cGame class's method_306() method to updateFallingBlock"
+}

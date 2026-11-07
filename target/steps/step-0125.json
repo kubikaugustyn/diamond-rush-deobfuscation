@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 125,
+  "reasoning" : "field_369 is set to currentTimeMillis right after method_67 (the update step) and used in the sleep calculation, so it marks when the update finished.",
+  "className" : "cGame",
+  "oldName" : "field_369",
+  "newName" : "updateEndMillis",
+  "description" : "Rename cGame class's field_369 field to updateEndMillis"
+}

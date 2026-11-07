@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 236,
+  "reasoning" : "method_204 returns the first animation frame index whose cumulative frame time reaches the given time, so it converts a time into a frame index.",
+  "className" : "cGame",
+  "signature" : [ "ASprite", "int", "int" ],
+  "oldName" : "method_204",
+  "newName" : "getAnimFrameForTime",
+  "methodSignature" : "cGame.method_204(ASprite, int, int)",
+  "description" : "Rename cGame class's method_204() method to getAnimFrameForTime"
+}

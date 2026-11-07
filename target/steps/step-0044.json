@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 44,
+  "reasoning" : "field_67 is the bobbing offset of the navigation arrows, moved by one each frame in drawPage.",
+  "className" : "IGA",
+  "oldName" : "field_67",
+  "newName" : "arrowOffset",
+  "description" : "Rename IGA class's field_67 field to arrowOffset"
+}

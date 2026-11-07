@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 101,
+  "reasoning" : "Computed as world tile X * 24 minus camera X (field_269 = var1 * 24 + ... - field_201) and used as the draw position of the player overlay, so it is the player's screen X.",
+  "className" : "cGame",
+  "oldName" : "field_269",
+  "newName" : "playerScreenX",
+  "description" : "Rename cGame class's field_269 field to playerScreenX"
+}

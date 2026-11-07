@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 69,
+  "reasoning" : "method_55 closes every MIDI player, nulls the array and stops the thread loop, so it releases all players.",
+  "className" : "cSoundEngine",
+  "signature" : [ ],
+  "oldName" : "method_55",
+  "newName" : "releaseAllPlayers",
+  "methodSignature" : "cSoundEngine.method_55()",
+  "description" : "Rename cSoundEngine class's method_55() method to releaseAllPlayers"
+}

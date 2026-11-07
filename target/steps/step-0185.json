@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 185,
+  "reasoning" : "Wrapper that calls drawTiledBackground with zero offsets.",
+  "className" : "cGame",
+  "signature" : [ "javax.microedition.lcdui.Graphics", "boolean" ],
+  "oldName" : "method_135",
+  "newName" : "drawTiledBackgroundAtOrigin",
+  "methodSignature" : "cGame.method_135(javax.microedition.lcdui.Graphics, boolean)",
+  "description" : "Rename cGame class's method_135() method to drawTiledBackgroundAtOrigin"
+}

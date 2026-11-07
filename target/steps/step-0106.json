@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 106,
+  "reasoning" : "Used as the height of fillRect(0, 0, 240, field_257) at the top of the screen, so it is the height of a top bar.",
+  "className" : "cGame",
+  "oldName" : "field_257",
+  "newName" : "topBarHeight",
+  "description" : "Rename cGame class's field_257 field to topBarHeight"
+}

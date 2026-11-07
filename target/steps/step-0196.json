@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 196,
+  "reasoning" : "method_152 only sets the graphics clip to the 240x240 game area, which is a reset-clip helper used before each draw.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_152",
+  "newName" : "resetGameClip",
+  "methodSignature" : "cGame.method_152()",
+  "description" : "Rename cGame class's method_152() method to resetGameClip"
+}

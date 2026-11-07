@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 232,
+  "reasoning" : "method_238 returns true when the given x is just outside the left or right end of a field_192 moving platform on the given row.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_238",
+  "newName" : "isBesideMovingPlatform",
+  "methodSignature" : "cGame.method_238(int, int)",
+  "description" : "Rename cGame class's method_238() method to isBesideMovingPlatform"
+}

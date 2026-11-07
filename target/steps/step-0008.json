@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 8,
+  "reasoning" : "field_44 is set to System.currentTimeMillis() when a script starts and compared against tickIntervalMs in method_21.",
+  "className" : "DemoInterpreter",
+  "oldName" : "field_44",
+  "newName" : "lastTickTime",
+  "description" : "Rename DemoInterpreter class's field_44 field to lastTickTime"
+}

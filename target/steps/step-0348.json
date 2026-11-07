@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 348,
+  "reasoning" : "Loads the map icon sheet from /ms.f into slot 17, then calls method_212 (handleShopInput under its current name) for the rest of the map setup. Lower confidence about the tail call.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_428",
+  "newName" : "loadMapResources",
+  "methodSignature" : "cGame.method_428()",
+  "description" : "Rename cGame class's method_428() method to loadMapResources"
+}

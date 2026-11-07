@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 275,
+  "reasoning" : "Scans the level for riddle tiles (type 17) with the given id and sets the camera scroll goal to the tile next to the matching tile.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_302",
+  "newName" : "scrollCameraToTrigger",
+  "methodSignature" : "cGame.method_302(int)",
+  "description" : "Rename cGame class's method_302() method to scrollCameraToTrigger"
+}

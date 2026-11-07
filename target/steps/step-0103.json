@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 103,
+  "reasoning" : "Byte counter incremented once per frame and used as the divisor in crtSealArrowOffsetX += var1 / (8 - field_111), so it is the arrow's move step.",
+  "className" : "cGame",
+  "oldName" : "field_111",
+  "newName" : "sealArrowMoveStep",
+  "description" : "Rename cGame class's field_111 field to sealArrowMoveStep"
+}

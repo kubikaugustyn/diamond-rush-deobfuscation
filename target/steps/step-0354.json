@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 354,
+  "reasoning" : "Draws the credits text from field_565 line by line onto a black background, scrolling it upward by the current offset and drawing the back button.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_435",
+  "newName" : "drawCreditsScroll",
+  "methodSignature" : "cGame.method_435()",
+  "description" : "Rename cGame class's method_435() method to drawCreditsScroll"
+}

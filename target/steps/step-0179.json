@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 179,
+  "reasoning" : "Removes the pickup at (x, y) from the level's pending list and increments the collected counter; called when the player collects a pickup.",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "int", "int" ],
+  "oldName" : "method_127",
+  "newName" : "markPickupCollected",
+  "methodSignature" : "cGame.method_127(int, int, int, int)",
+  "description" : "Rename cGame class's method_127() method to markPickupCollected"
+}

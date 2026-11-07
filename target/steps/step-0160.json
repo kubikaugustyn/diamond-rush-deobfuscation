@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 160,
+  "reasoning" : "Loads one subfile of the packed /mm0.f asset and creates sprite instances for indices 0 and 1 (or stores a sprite for index 2); the name comes from the file it reads.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_102",
+  "newName" : "loadMm0Sprite",
+  "methodSignature" : "cGame.method_102(int)",
+  "description" : "Rename cGame class's method_102() method to loadMm0Sprite"
+}

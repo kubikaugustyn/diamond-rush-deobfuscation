@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 6,
+  "reasoning" : "field_42 is the list of script blocks parsed from demo.f, consumed one at a time by method_26.",
+  "className" : "DemoInterpreter",
+  "oldName" : "field_42",
+  "newName" : "demoScripts",
+  "description" : "Rename DemoInterpreter class's field_42 field to demoScripts"
+}

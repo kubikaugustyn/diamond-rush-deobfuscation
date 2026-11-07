@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 250,
+  "reasoning" : "Damages the player when the player's column matches the boss column and the player's vertical position overlaps the boss sprite (sprite index 5) range.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_270",
+  "newName" : "checkBossContactDamage",
+  "methodSignature" : "cGame.method_270()",
+  "description" : "Rename cGame class's method_270() method to checkBossContactDamage"
+}

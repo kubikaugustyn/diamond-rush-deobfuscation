@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 53,
+  "reasoning" : "field_30 is the pixel offset of gemGridA within a 24px row, which grows by scrollSpeedA and wraps at 24.",
+  "className" : "GemsRain",
+  "oldName" : "field_30",
+  "newName" : "gridOffsetA",
+  "description" : "Rename GemsRain class's field_30 field to gridOffsetA"
+}

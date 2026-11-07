@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 34,
+  "reasoning" : "method_33 measures a string with the game font and records each line break in textLineEnds, so it word-wraps text to a max pixel width.",
+  "className" : "DemoInterpreter",
+  "signature" : [ "java.lang.String", "int" ],
+  "oldName" : "method_33",
+  "newName" : "wrapText",
+  "methodSignature" : "DemoInterpreter.method_33(java.lang.String, int)",
+  "description" : "Rename DemoInterpreter class's method_33() method to wrapText"
+}

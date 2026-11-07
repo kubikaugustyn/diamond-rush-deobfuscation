@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 183,
+  "reasoning" : "Draws the help screen text for gameState 33 when the screen is dirty.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_133",
+  "newName" : "drawHelpScreen",
+  "methodSignature" : "cGame.method_133()",
+  "description" : "Rename cGame class's method_133() method to drawHelpScreen"
+}

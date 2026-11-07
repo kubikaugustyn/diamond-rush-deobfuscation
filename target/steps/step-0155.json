@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 155,
+  "reasoning" : "Resets level counters, sets gameState to 11 and clears level state; called by the confirm menu's restart choice and by updateGameState case 16.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_86",
+  "newName" : "restartLevel",
+  "methodSignature" : "cGame.method_86()",
+  "description" : "Rename cGame class's method_86() method to restartLevel"
+}

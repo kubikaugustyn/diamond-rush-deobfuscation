@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 110,
+  "reasoning" : "Set to half of the width of sprite field_320[10] so the sprite is centered horizontally (240 - width >> 1) and used as its draw X, so it is the centered sprite X.",
+  "className" : "cGame",
+  "oldName" : "field_116",
+  "newName" : "centerSpriteX",
+  "description" : "Rename cGame class's field_116 field to centerSpriteX"
+}

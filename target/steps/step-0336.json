@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 336,
+  "reasoning" : "Resets the map cursor and path-animation state fields (positions, counters, flags) to their starting values.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_415",
+  "newName" : "resetMapCursor",
+  "methodSignature" : "cGame.method_415()",
+  "description" : "Rename cGame class's method_415() method to resetMapCursor"
+}

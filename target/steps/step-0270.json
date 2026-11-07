@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 270,
+  "reasoning" : "Recursively sets or clears the 512 flag on neighbouring tiles of types 8 and 9 in the direction given, propagating a state flag through connected gates.",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "int", "int", "int" ],
+  "oldName" : "method_297",
+  "newName" : "propagateTileFlag",
+  "methodSignature" : "cGame.method_297(int, int, int, int, int)",
+  "description" : "Rename cGame class's method_297() method to propagateTileFlag"
+}

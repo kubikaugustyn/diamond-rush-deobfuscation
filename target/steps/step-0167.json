@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 167,
+  "reasoning" : "Index-selected step that creates or opens the DiamondRush record and parses the map .out files into recordData; called from updateGameState case 5.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_113",
+  "newName" : "initRecordDataStep",
+  "methodSignature" : "cGame.method_113(int)",
+  "description" : "Rename cGame class's method_113() method to initRecordDataStep"
+}

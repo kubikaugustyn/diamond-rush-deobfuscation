@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 132,
+  "reasoning" : "field_453 is set to frameCounter plus a random 340 to 441 frames and then compared against frameCounter to trigger a state change, so it is the frame at which the next trigger fires.",
+  "className" : "cGame",
+  "oldName" : "field_453",
+  "newName" : "nextTriggerFrame",
+  "description" : "Rename cGame class's field_453 field to nextTriggerFrame"
+}

@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 127,
+  "reasoning" : "field_431 holds the time of the last menu navigation and is compared against a 300 ms window to debounce up/down key repeats.",
+  "className" : "cGame",
+  "oldName" : "field_431",
+  "newName" : "lastMenuNavMillis",
+  "description" : "Rename cGame class's field_431 field to lastMenuNavMillis"
+}

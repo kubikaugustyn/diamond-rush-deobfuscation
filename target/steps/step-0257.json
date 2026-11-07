@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 257,
+  "reasoning" : "Picks the boss column from the player's tile column (player x minus 10, divided by 3) with a small frame-based offset, and is used to set field_183 during the boss sequence.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_277",
+  "newName" : "chooseBossColumn",
+  "methodSignature" : "cGame.method_277()",
+  "description" : "Rename cGame class's method_277() method to chooseBossColumn"
+}

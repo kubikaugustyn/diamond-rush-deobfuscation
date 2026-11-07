@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 329,
+  "reasoning" : "Switches the game to the level-select map state (gameState 21), sets the redraw flags, sets the asset load totals, clamps currentLevel to the world's level count and allocates map buffers.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_408",
+  "newName" : "enterLevelMap",
+  "methodSignature" : "cGame.method_408()",
+  "description" : "Rename cGame class's method_408() method to enterLevelMap"
+}

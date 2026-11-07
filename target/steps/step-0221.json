@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 221,
+  "reasoning" : "method_223 handles input on the cheat page: it toggles the cheat options, adds diamonds, and on confirm writes the cheat values to the record and returns.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_223",
+  "newName" : "handleCheatPageInput",
+  "methodSignature" : "cGame.method_223()",
+  "description" : "Rename cGame class's method_223() method to handleCheatPageInput"
+}

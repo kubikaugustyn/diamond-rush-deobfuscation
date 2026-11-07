@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 305,
+  "reasoning" : "Public static setter that assigns IGA.field_65, the state variable the intro/IGA screen state machine switches on.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_363",
+  "newName" : "setIgaState",
+  "methodSignature" : "cGame.method_363(int)",
+  "description" : "Rename cGame class's method_363() method to setIgaState"
+}

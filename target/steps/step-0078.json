@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 78,
+  "reasoning" : "Subtracts damage from field_239 (health) and applies hurt state and knockback; it is the player-damage handler.",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "int" ],
+  "oldName" : "method_61",
+  "newName" : "damagePlayer",
+  "methodSignature" : "cGame.method_61(int, int, int)",
+  "description" : "Rename cGame class's method_61() method to damagePlayer"
+}

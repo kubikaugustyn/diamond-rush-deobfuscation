@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 328,
+  "reasoning" : "Frees the sprites in slots 17 and 23 through 26 and the map image buffers field_513 and field_514, releasing the level-map graphics.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_407",
+  "newName" : "releaseMapSprites",
+  "methodSignature" : "cGame.method_407()",
+  "description" : "Rename cGame class's method_407() method to releaseMapSprites"
+}

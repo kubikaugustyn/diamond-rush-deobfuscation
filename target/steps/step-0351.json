@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 351,
+  "reasoning" : "Draws the options screen: title from menuText[72], a framed panel, a selection cursor on the highlighted row, and the four option rows (menuText 85-88) with the back and OK buttons.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_431",
+  "newName" : "drawOptionsMenu",
+  "methodSignature" : "cGame.method_431()",
+  "description" : "Rename cGame class's method_431() method to drawOptionsMenu"
+}

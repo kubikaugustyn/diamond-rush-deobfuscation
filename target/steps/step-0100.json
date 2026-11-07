@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 100,
+  "reasoning" : "Copied from collectedRedDiamonds in the snapshot method and restored back to it, so it is a saved copy of the red diamond count.",
+  "className" : "cGame",
+  "oldName" : "field_299",
+  "newName" : "savedCollectedRedDiamonds",
+  "description" : "Rename cGame class's field_299 field to savedCollectedRedDiamonds"
+}

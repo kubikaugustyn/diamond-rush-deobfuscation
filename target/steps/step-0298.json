@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 298,
+  "reasoning" : "Per-cell chest handler: when the player is close and not busy, it plays the chest-open sound (SOUND_SFX_CHEST_1) and otherwise steps the chest's frame animation, using field_320[8] or [22] as the sprite.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_342",
+  "newName" : "updateChestAnimation",
+  "methodSignature" : "cGame.method_342(int)",
+  "description" : "Rename cGame class's method_342() method to updateChestAnimation"
+}

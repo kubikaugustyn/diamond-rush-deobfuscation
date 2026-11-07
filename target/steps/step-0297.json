@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 297,
+  "reasoning" : "When the player stands beside a gold (9) or silver (8) locked cell and holds the matching key, it spends the key path: sets facing, starts the player animation and sets the open-door state.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_339",
+  "newName" : "tryUnlockDoor",
+  "methodSignature" : "cGame.method_339()",
+  "description" : "Rename cGame class's method_339() method to tryUnlockDoor"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 313,
+  "reasoning" : "Scans the 15 script entries for a free one (status bits 0-3 equal to 0), fills its fields with the given values and returns its index or -1, so it allocates a script slot.",
+  "className" : "cGame",
+  "signature" : [ "byte", "byte", "byte", "byte" ],
+  "oldName" : "method_372",
+  "newName" : "allocScriptSlot",
+  "methodSignature" : "cGame.method_372(byte, byte, byte, byte)",
+  "description" : "Rename cGame class's method_372() method to allocScriptSlot"
+}

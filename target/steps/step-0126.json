@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 126,
+  "reasoning" : "field_370 is set to abs(now - frameStart) after rendering and checked against 65 ms to skip rendering on slow frames, so it holds the last frame's duration.",
+  "className" : "cGame",
+  "oldName" : "field_370",
+  "newName" : "lastFrameDurationMillis",
+  "description" : "Rename cGame class's field_370 field to lastFrameDurationMillis"
+}

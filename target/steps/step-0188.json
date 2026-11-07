@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 188,
+  "reasoning" : "method_144 draws the 240x240 background image wrapped around the camera position using field_201/field_202 offsets, so it scrolls the background.",
+  "className" : "cGame",
+  "signature" : [ "javax.microedition.lcdui.Graphics" ],
+  "oldName" : "method_144",
+  "newName" : "drawScrollingBackground",
+  "methodSignature" : "cGame.method_144(javax.microedition.lcdui.Graphics)",
+  "description" : "Rename cGame class's method_144() method to drawScrollingBackground"
+}

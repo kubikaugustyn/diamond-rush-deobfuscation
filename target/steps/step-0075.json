@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 75,
+  "reasoning" : "Method_264 computes field_218..field_221 as oscillating heights on a frameCounter cycle, and method_323 uses those heights to decide spike (tile 28) hazards, so it updates spike extension.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_264",
+  "newName" : "updateSpikeHeights",
+  "methodSignature" : "cGame.method_264()",
+  "description" : "Rename cGame class's method_264() method to updateSpikeHeights"
+}

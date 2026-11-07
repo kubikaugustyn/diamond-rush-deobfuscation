@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 51,
+  "reasoning" : "method_43 nulls the page images, strings and sprites and runs GC, so it releases the info-screen resources.",
+  "className" : "IGA",
+  "signature" : [ ],
+  "oldName" : "method_43",
+  "newName" : "releaseResources",
+  "methodSignature" : "IGA.method_43()",
+  "description" : "Rename IGA class's method_43() method to releaseResources"
+}

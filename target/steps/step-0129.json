@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 129,
+  "reasoning" : "field_568 is set to currentTimeMillis when the countdown starts and is reset each tick, where the elapsed time is subtracted from field_567, so it is the last countdown tick timestamp.",
+  "className" : "cGame",
+  "oldName" : "field_568",
+  "newName" : "lastCountdownTickMillis",
+  "description" : "Rename cGame class's field_568 field to lastCountdownTickMillis"
+}

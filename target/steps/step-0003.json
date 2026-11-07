@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 3,
+  "reasoning" : "field_39 holds the resource path \"/demoSpr.bin\" that method_31 loads demo sprites from.",
+  "className" : "DemoInterpreter",
+  "oldName" : "field_39",
+  "newName" : "demoSpritesPath",
+  "description" : "Rename DemoInterpreter class's field_39 field to demoSpritesPath"
+}

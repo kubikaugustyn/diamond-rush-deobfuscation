@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 137,
+  "reasoning" : "field_339 is the goal X that method_300 moves cameraX (field_201) toward in fixed steps, so it is the camera scroll goal.",
+  "className" : "cGame",
+  "oldName" : "field_339",
+  "newName" : "cameraScrollGoalX",
+  "description" : "Rename cGame class's field_339 field to cameraScrollGoalX"
+}

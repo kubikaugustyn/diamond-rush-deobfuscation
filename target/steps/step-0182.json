@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 182,
+  "reasoning" : "Draw dispatcher that switches on gameState and calls the matching draw routine each frame; called from the main loop.",
+  "className" : "cGame",
+  "signature" : [ "javax.microedition.lcdui.Graphics" ],
+  "oldName" : "method_132",
+  "newName" : "renderGameState",
+  "methodSignature" : "cGame.method_132(javax.microedition.lcdui.Graphics)",
+  "description" : "Rename cGame class's method_132() method to renderGameState"
+}

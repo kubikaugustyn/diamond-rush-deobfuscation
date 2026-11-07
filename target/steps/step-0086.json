@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 86,
+  "reasoning" : "Clamped toward a target like field_203 and paired with field_202 in the camera reset, so it is the camera target Y.",
+  "className" : "cGame",
+  "oldName" : "field_204",
+  "newName" : "cameraTargetY",
+  "description" : "Rename cGame class's field_204 field to cameraTargetY"
+}

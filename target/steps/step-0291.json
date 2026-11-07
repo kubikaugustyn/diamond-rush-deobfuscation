@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 291,
+  "reasoning" : "When the player stands on a tile, sets the pending action (field_213 = action id) and the matching animation for chest, key, door and gate types, then clears the tile.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_322",
+  "newName" : "triggerTileAction",
+  "methodSignature" : "cGame.method_322(int)",
+  "description" : "Rename cGame class's method_322() method to triggerTileAction"
+}

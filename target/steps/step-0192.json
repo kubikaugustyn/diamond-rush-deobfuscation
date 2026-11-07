@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 192,
+  "reasoning" : "method_148 converts a tile coordinate to pixels and, if it is inside the view, calls method_150 to redraw that tile rectangle.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_148",
+  "newName" : "redrawTileRegion",
+  "methodSignature" : "cGame.method_148(int, int)",
+  "description" : "Rename cGame class's method_148() method to redrawTileRegion"
+}

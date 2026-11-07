@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 205,
+  "reasoning" : "method_174 clears the field_433 refresh flag and sets field_432 from method_105, which is hasSavedGame, so it refreshes whether a saved game exists for the menu.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_174",
+  "newName" : "refreshHasSavedGame",
+  "methodSignature" : "cGame.method_174()",
+  "description" : "Rename cGame class's method_174() method to refreshHasSavedGame"
+}

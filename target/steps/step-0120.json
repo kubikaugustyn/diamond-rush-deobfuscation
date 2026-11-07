@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 120,
+  "reasoning" : "field_357 is a Thread created as new Thread(this) and started in init, so it is the game loop thread.",
+  "className" : "cGame",
+  "oldName" : "field_357",
+  "newName" : "gameThread",
+  "description" : "Rename cGame class's field_357 field to gameThread"
+}

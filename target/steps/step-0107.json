@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 107,
+  "reasoning" : "Incremented once per loop and appended to a file name with \".f\" when loading sprite files, so it is the index of the sprite file being loaded.",
+  "className" : "cGame",
+  "oldName" : "field_267",
+  "newName" : "spriteLoadIndex",
+  "description" : "Rename cGame class's field_267 field to spriteLoadIndex"
+}

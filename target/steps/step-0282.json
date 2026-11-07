@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 282,
+  "reasoning" : "Static predicate returning true when the tile at (x, y) is empty and not an excluded type, with a special case for type 7 with no flag bits, so an object can land there.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_310",
+  "newName" : "isEmptyLandingTile",
+  "methodSignature" : "cGame.method_310(int, int)",
+  "description" : "Rename cGame class's method_310() method to isEmptyLandingTile"
+}

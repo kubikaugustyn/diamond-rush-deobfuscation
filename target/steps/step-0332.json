@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 332,
+  "reasoning" : "Writes a value into a bit range of the level-map cell field_509[x][y], the setter paired with extractLongBits, and is used by the map data loader.",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "int", "byte", "byte" ],
+  "oldName" : "method_411",
+  "newName" : "setMapCellBits",
+  "methodSignature" : "cGame.method_411(int, int, int, byte, byte)",
+  "description" : "Rename cGame class's method_411() method to setMapCellBits"
+}

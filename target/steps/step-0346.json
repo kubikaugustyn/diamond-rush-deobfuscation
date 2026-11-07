@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 346,
+  "reasoning" : "Reads the per-world map file (/w0.bin-style resource) and fills the 12x12 map-cell grid with each node's packed bits, tracking the lowest level number.",
+  "className" : "cGame",
+  "signature" : [ "java.lang.String" ],
+  "oldName" : "method_426",
+  "newName" : "loadMapData",
+  "methodSignature" : "cGame.method_426(java.lang.String)",
+  "description" : "Rename cGame class's method_426() method to loadMapData"
+}

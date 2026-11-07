@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 357,
+  "reasoning" : "Cancels the running countdown by zeroing it, and requests a redraw when the boolean argument is true.",
+  "className" : "cGame",
+  "signature" : [ "boolean" ],
+  "oldName" : "method_438",
+  "newName" : "stopCountdown",
+  "methodSignature" : "cGame.method_438(boolean)",
+  "description" : "Rename cGame class's method_438() method to stopCountdown"
+}

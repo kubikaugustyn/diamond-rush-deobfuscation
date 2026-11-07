@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 206,
+  "reasoning" : "method_175 draws the current menu: title, item labels with selection highlight and scrolling, the back and OK buttons, and runs the menu selection handler on confirm.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_175",
+  "newName" : "drawMenu",
+  "methodSignature" : "cGame.method_175()",
+  "description" : "Rename cGame class's method_175() method to drawMenu"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 265,
+  "reasoning" : "Probes the tile pair with a slide/move test: when probe mode is off it moves the player through the tile, returning whether the step succeeded.",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "boolean" ],
+  "oldName" : "method_288",
+  "newName" : "tryPlayerMove",
+  "methodSignature" : "cGame.method_288(int, int, boolean)",
+  "description" : "Rename cGame class's method_288() method to tryPlayerMove"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 299,
+  "reasoning" : "Public static setter that writes a cell's type code into field_334 and its packed data word into field_333 at the given coordinates.",
+  "className" : "cGame",
+  "signature" : [ "short", "short", "byte", "int" ],
+  "oldName" : "method_348",
+  "newName" : "setCellState",
+  "methodSignature" : "cGame.method_348(short, short, byte, int)",
+  "description" : "Rename cGame class's method_348() method to setCellState"
+}

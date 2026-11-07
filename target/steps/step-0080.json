@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 80,
+  "reasoning" : "Computes field_178 as one of 16 direction indices from the vector between the player and the field_337 target point.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_265",
+  "newName" : "computeDirectionToTarget",
+  "methodSignature" : "cGame.method_265()",
+  "description" : "Rename cGame class's method_265() method to computeDirectionToTarget"
+}

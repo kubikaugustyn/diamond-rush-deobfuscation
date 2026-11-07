@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 327,
+  "reasoning" : "Draws a packed text buffer line by line with word wrap, switching palettes on control codes 1 and 2 and drawing inline sprite tokens at code 64, returning the height consumed.",
+  "className" : "cGame",
+  "signature" : [ "javax.microedition.lcdui.Graphics", "byte[]", "ASprite", "int", "int", "int", "ASprite", "int", "int" ],
+  "oldName" : "method_406",
+  "newName" : "drawFormattedText",
+  "methodSignature" : "cGame.method_406(javax.microedition.lcdui.Graphics, byte[], ASprite, int, int, int, ASprite, int, int)",
+  "description" : "Rename cGame class's method_406() method to drawFormattedText"
+}

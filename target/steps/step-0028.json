@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 28,
+  "reasoning" : "method_26 takes the next block from demoScripts into currentScript, incrementing scriptIndex, and returns it.",
+  "className" : "DemoInterpreter",
+  "signature" : [ ],
+  "oldName" : "method_26",
+  "newName" : "loadNextScript",
+  "methodSignature" : "DemoInterpreter.method_26()",
+  "description" : "Rename DemoInterpreter class's method_26() method to loadNextScript"
+}

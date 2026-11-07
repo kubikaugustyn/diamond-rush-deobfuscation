@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 97,
+  "reasoning" : "Copied from playerGoldKeys in the snapshot method and written back to it on restore, so it is a saved copy of the gold key count.",
+  "className" : "cGame",
+  "oldName" : "field_295",
+  "newName" : "savedGoldKeys",
+  "description" : "Rename cGame class's field_295 field to savedGoldKeys"
+}

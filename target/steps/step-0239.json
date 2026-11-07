@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 239,
+  "reasoning" : "Writes (x, y, type) into an 8-slot circular buffer (field_159/field_161/field_160) and advances the write index, so it is an enqueue operation.",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "int" ],
+  "oldName" : "method_254",
+  "newName" : "enqueueEvent",
+  "methodSignature" : "cGame.method_254(int, int, int)",
+  "description" : "Rename cGame class's method_254() method to enqueueEvent"
+}

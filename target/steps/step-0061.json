@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 61,
+  "reasoning" : "method_18 draws both gem grids using the offsets and advances crtFrame, so it is the gem draw routine.",
+  "className" : "GemsRain",
+  "signature" : [ "javax.microedition.lcdui.Graphics" ],
+  "oldName" : "method_18",
+  "newName" : "drawGems",
+  "methodSignature" : "GemsRain.method_18(javax.microedition.lcdui.Graphics)",
+  "description" : "Rename GemsRain class's method_18() method to drawGems"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 191,
+  "reasoning" : "method_147 redraws one tile into the offscreen buffer as blank background, and delegates special tile types to the region redraw helper.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_147",
+  "newName" : "redrawTileToBuffer",
+  "methodSignature" : "cGame.method_147(int, int)",
+  "description" : "Rename cGame class's method_147() method to redrawTileToBuffer"
+}

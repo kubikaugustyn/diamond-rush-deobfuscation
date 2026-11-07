@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 216,
+  "reasoning" : "method_215 adds a delta to the shop selection index field_97 and wraps it within the four items.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_215",
+  "newName" : "moveShopSelection",
+  "methodSignature" : "cGame.method_215(int)",
+  "description" : "Rename cGame class's method_215() method to moveShopSelection"
+}

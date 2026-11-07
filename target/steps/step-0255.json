@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 255,
+  "reasoning" : "Converts the boss sprite's screen Y (sprite index 5 position minus the current frame height and camera offset) into a tile row index.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_275",
+  "newName" : "getBossRow",
+  "methodSignature" : "cGame.method_275()",
+  "description" : "Rename cGame class's method_275() method to getBossRow"
+}

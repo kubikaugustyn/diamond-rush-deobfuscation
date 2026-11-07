@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 29,
+  "reasoning" : "method_27 executes one step of the current script and then increments frameCounter, so it advances the script by one step.",
+  "className" : "DemoInterpreter",
+  "signature" : [ ],
+  "oldName" : "method_27",
+  "newName" : "stepScript",
+  "methodSignature" : "DemoInterpreter.method_27()",
+  "description" : "Rename DemoInterpreter class's method_27() method to stepScript"
+}

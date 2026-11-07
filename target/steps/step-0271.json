@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 271,
+  "reasoning" : "Returns true when the player stands exactly on the given tile coordinates.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_298",
+  "newName" : "isPlayerAt",
+  "methodSignature" : "cGame.method_298(int, int)",
+  "description" : "Rename cGame class's method_298() method to isPlayerAt"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 33,
+  "reasoning" : "method_32 draws the already-wrapped text lines of a string, reading their boundaries from textLineEnds, so it is a wrapped-text drawer.",
+  "className" : "DemoInterpreter",
+  "signature" : [ "javax.microedition.lcdui.Graphics", "java.lang.String", "int", "int", "int", "int" ],
+  "oldName" : "method_32",
+  "newName" : "drawWrappedText",
+  "methodSignature" : "DemoInterpreter.method_32(javax.microedition.lcdui.Graphics, java.lang.String, int, int, int, int)",
+  "description" : "Rename DemoInterpreter class's method_32() method to drawWrappedText"
+}

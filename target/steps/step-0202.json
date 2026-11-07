@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 202,
+  "reasoning" : "method_171 nulls the splash and title image fields and runs System.gc(), releasing the splash assets.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_171",
+  "newName" : "releaseSplashAssets",
+  "methodSignature" : "cGame.method_171()",
+  "description" : "Rename cGame class's method_171() method to releaseSplashAssets"
+}

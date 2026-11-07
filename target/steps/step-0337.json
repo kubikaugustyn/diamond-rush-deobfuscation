@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 337,
+  "reasoning" : "Advances one step of the dotted path animation between map nodes, drawing the path dots and the marker sprite, and returns true when the animation reaches its end.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_416",
+  "newName" : "animateMapPathStep",
+  "methodSignature" : "cGame.method_416()",
+  "description" : "Rename cGame class's method_416() method to animateMapPathStep"
+}

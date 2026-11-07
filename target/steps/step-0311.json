@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 311,
+  "reasoning" : "When script mode (field_155) is on, it resets the script arrays, allocates the per-cell script grid field_500, and calls method_293 to finish setup.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_370",
+  "newName" : "initScriptState",
+  "methodSignature" : "cGame.method_370()",
+  "description" : "Rename cGame class's method_370() method to initScriptState"
+}

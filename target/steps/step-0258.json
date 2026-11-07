@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 258,
+  "reasoning" : "Large per-frame state machine over field_180 that drives the boss sprite animations (sprite indices 4 and 5), tile spawning and the attack timing.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_278",
+  "newName" : "updateBossAI",
+  "methodSignature" : "cGame.method_278()",
+  "description" : "Rename cGame class's method_278() method to updateBossAI"
+}

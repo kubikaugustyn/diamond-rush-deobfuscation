@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 35,
+  "reasoning" : "method_34 writes a 16-bit little-endian short into a byte array, so it is a short writer.",
+  "className" : "DemoInterpreter",
+  "signature" : [ "byte[]", "int", "short" ],
+  "oldName" : "method_34",
+  "newName" : "writeShort",
+  "methodSignature" : "DemoInterpreter.method_34(byte[], int, short)",
+  "description" : "Rename DemoInterpreter class's method_34() method to writeShort"
+}

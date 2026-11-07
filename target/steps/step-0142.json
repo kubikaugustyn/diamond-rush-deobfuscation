@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 142,
+  "reasoning" : "field_569 is assigned from getWrapText(text, 220) and then drawn as a page of text, so it holds the word-wrapped text.",
+  "className" : "cGame",
+  "oldName" : "field_569",
+  "newName" : "wrappedText",
+  "description" : "Rename cGame class's field_569 field to wrappedText"
+}

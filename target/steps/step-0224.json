@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 224,
+  "reasoning" : "method_227 is the in-level player input handler: it reads the move, action and hammer keys and updates the player direction, moves, and dialog or script input.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_227",
+  "newName" : "handlePlayerInput",
+  "methodSignature" : "cGame.method_227()",
+  "description" : "Rename cGame class's method_227() method to handlePlayerInput"
+}

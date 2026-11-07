@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 201,
+  "reasoning" : "method_170 is a switch over load stages: stage 0 unloads the font and runs gc, and stages 6 and 7 load splash and UI image assets.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_170",
+  "newName" : "loadAssetStage",
+  "methodSignature" : "cGame.method_170(int)",
+  "description" : "Rename cGame class's method_170() method to loadAssetStage"
+}

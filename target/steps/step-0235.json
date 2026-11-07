@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 235,
+  "reasoning" : "method_242 draws the level stats page for the current field_223 page: the diamond, red diamond, and death or try counters with their completion marks.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_242",
+  "newName" : "drawLevelStats",
+  "methodSignature" : "cGame.method_242()",
+  "description" : "Rename cGame class's method_242() method to drawLevelStats"
+}

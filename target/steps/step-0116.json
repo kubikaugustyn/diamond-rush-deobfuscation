@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 116,
+  "reasoning" : "Incremented each frame and passed to field_320[9].drawAnimFrame while below field_129, so it is the current animation frame.",
+  "className" : "cGame",
+  "oldName" : "field_130",
+  "newName" : "animFrame",
+  "description" : "Rename cGame class's field_130 field to animFrame"
+}

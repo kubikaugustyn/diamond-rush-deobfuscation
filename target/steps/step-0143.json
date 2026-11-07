@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 143,
+  "reasoning" : "Sets field_239 (player health) and clamps it to 0..recordData[8]; called with field_239 - damage from damagePlayer and with 127 for a full heal pickup.",
+  "className" : "cGame",
+  "signature" : [ "byte" ],
+  "oldName" : "method_62",
+  "newName" : "setPlayerHealth",
+  "methodSignature" : "cGame.method_62(byte)",
+  "description" : "Rename cGame class's method_62() method to setPlayerHealth"
+}

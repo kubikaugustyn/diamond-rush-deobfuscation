@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 68,
+  "reasoning" : "method_54 resets the current sound state, closes the snd.f stream and nulls its metadata, so it closes the sound file.",
+  "className" : "cSoundEngine",
+  "signature" : [ ],
+  "oldName" : "method_54",
+  "newName" : "closeSoundFile",
+  "methodSignature" : "cSoundEngine.method_54()",
+  "description" : "Rename cSoundEngine class's method_54() method to closeSoundFile"
+}

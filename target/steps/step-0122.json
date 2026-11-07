@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 122,
+  "reasoning" : "field_394 is an Image created at 396x397 and drawn with drawImage, paired with field_395 which is its getGraphics(), so it is an offscreen buffer.",
+  "className" : "cGame",
+  "oldName" : "field_394",
+  "newName" : "offscreenImage",
+  "description" : "Rename cGame class's field_394 field to offscreenImage"
+}

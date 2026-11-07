@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 113,
+  "reasoning" : "Set to the frame count returned by method_313 for sprite field_320[55] and used as the modulus for the animation frame, so it is the frame count of that animation.",
+  "className" : "cGame",
+  "oldName" : "field_114",
+  "newName" : "sealAnimFrameCount",
+  "description" : "Rename cGame class's field_114 field to sealAnimFrameCount"
+}

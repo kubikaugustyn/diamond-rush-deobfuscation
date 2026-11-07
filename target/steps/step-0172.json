@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 172,
+  "reasoning" : "Raises the stored progress value for a world to the given value when it is higher; called from saveLevelProgress and the cheat path.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_118",
+  "newName" : "updateWorldProgress",
+  "methodSignature" : "cGame.method_118(int, int)",
+  "description" : "Rename cGame class's method_118() method to updateWorldProgress"
+}

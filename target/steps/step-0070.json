@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 70,
+  "reasoning" : "method_60 returns whether crtSoundId is set, so it reports whether a sound is currently playing.",
+  "className" : "cSoundEngine",
+  "signature" : [ ],
+  "oldName" : "method_60",
+  "newName" : "isSoundPlaying",
+  "methodSignature" : "cSoundEngine.method_60()",
+  "description" : "Rename cSoundEngine class's method_60() method to isSoundPlaying"
+}

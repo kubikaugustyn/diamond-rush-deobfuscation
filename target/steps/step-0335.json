@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 335,
+  "reasoning" : "Draws the \"collected/total\" stats box for the selected level, using the world's count methods (method_124/method_126), positioned next to the selected map node.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_414",
+  "newName" : "drawMapStatsBox",
+  "methodSignature" : "cGame.method_414()",
+  "description" : "Rename cGame class's method_414() method to drawMapStatsBox"
+}

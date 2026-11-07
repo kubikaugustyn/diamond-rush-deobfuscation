@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 284,
+  "reasoning" : "Returns the total duration in ticks of animation 0 by summing the per-frame durations of the given sprite's animation, a helper used for timing.",
+  "className" : "cGame",
+  "signature" : [ "ASprite", "int" ],
+  "oldName" : "method_313",
+  "newName" : "getAnimTotalTicks",
+  "methodSignature" : "cGame.method_313(ASprite, int)",
+  "description" : "Rename cGame class's method_313() method to getAnimTotalTicks"
+}

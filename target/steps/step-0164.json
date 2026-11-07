@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 164,
+  "reasoning" : "Ends a level by storing player state, world progress and collected count into the record, then saving it; called on level completion.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_108",
+  "newName" : "saveLevelProgress",
+  "methodSignature" : "cGame.method_108()",
+  "description" : "Rename cGame class's method_108() method to saveLevelProgress"
+}

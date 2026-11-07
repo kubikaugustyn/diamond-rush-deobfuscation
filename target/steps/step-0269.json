@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 269,
+  "reasoning" : "Scans the level grid to reset and rebuild per-level tile state: counts diamonds and gates, collects tile and demo-related tables, and fills the stored pickup and interpreter arrays.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_296",
+  "newName" : "scanLevelTiles",
+  "methodSignature" : "cGame.method_296()",
+  "description" : "Rename cGame class's method_296() method to scanLevelTiles"
+}

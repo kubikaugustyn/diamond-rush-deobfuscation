@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 176,
+  "reasoning" : "Reads the collected-diamond count stored for a level.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_124",
+  "newName" : "getLevelCollectedDiamonds",
+  "methodSignature" : "cGame.method_124(int, int)",
+  "description" : "Rename cGame class's method_124() method to getLevelCollectedDiamonds"
+}

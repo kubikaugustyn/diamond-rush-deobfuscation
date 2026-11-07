@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 306,
+  "reasoning" : "Switch-driven per-frame handler for the IGA screen: it initializes, releases resources, and draws the current IGA page, returning false when the screen is finished.",
+  "className" : "cGame",
+  "signature" : [ "javax.microedition.lcdui.Graphics" ],
+  "oldName" : "method_364",
+  "newName" : "updateIgaScreen",
+  "methodSignature" : "cGame.method_364(javax.microedition.lcdui.Graphics)",
+  "description" : "Rename cGame class's method_364() method to updateIgaScreen"
+}

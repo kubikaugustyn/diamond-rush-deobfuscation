@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 222,
+  "reasoning" : "method_224 restores gameState to the saved field_224 value and reopens the level or intro view when returning from a sub-screen.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_224",
+  "newName" : "returnToPreviousState",
+  "methodSignature" : "cGame.method_224()",
+  "description" : "Rename cGame class's method_224() method to returnToPreviousState"
+}

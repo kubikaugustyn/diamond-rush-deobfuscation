@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 331,
+  "reasoning" : "Static bit-field extractor for a 64-bit packed map-cell value, returning the bits at the given shift and width.",
+  "className" : "cGame",
+  "signature" : [ "long", "byte", "byte" ],
+  "oldName" : "method_410",
+  "newName" : "extractLongBits",
+  "methodSignature" : "cGame.method_410(long, byte, byte)",
+  "description" : "Rename cGame class's method_410() method to extractLongBits"
+}

@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 37,
+  "reasoning" : "field_58 is the Image array holding the four ad images and the per-page picture, indexed by currentPage.",
+  "className" : "IGA",
+  "oldName" : "field_58",
+  "newName" : "pageImages",
+  "description" : "Rename IGA class's field_58 field to pageImages"
+}

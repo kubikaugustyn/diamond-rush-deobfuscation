@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 108,
+  "reasoning" : "Row index into spriteImages for an image drawn above the player (field_318[field_208][field_209] at playerScreenX - 12, playerScreenY - 24), so it is the overlay image row.",
+  "className" : "cGame",
+  "oldName" : "field_208",
+  "newName" : "overlayImageRow",
+  "description" : "Rename cGame class's field_208 field to overlayImageRow"
+}

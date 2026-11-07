@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 358,
+  "reasoning" : "Static getter returning true while the countdown field is greater than zero.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_439",
+  "newName" : "isCountdownActive",
+  "methodSignature" : "cGame.method_439()",
+  "description" : "Rename cGame class's method_439() method to isCountdownActive"
+}

@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 79,
+  "reasoning" : "Price of the current item, set from Define.itemPrices[crtItemIndex] and -1 when the purchase is not possible.",
+  "className" : "cGame",
+  "oldName" : "field_98",
+  "newName" : "crtItemPrice",
+  "description" : "Rename cGame class's field_98 field to crtItemPrice"
+}

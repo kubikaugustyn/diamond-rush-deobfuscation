@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 319,
+  "reasoning" : "Writes a value into a bit range of the script entry word field_502[index], the setter paired with getEntryBits.",
+  "className" : "cGame",
+  "signature" : [ "byte", "byte", "byte", "byte" ],
+  "oldName" : "method_378",
+  "newName" : "setEntryBits",
+  "methodSignature" : "cGame.method_378(byte, byte, byte, byte)",
+  "description" : "Rename cGame class's method_378() method to setEntryBits"
+}

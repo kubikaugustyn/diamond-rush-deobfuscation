@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 159,
+  "reasoning" : "Sets field_170, the flag the HUD draw checks to force a full redraw of its cached values.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_96",
+  "newName" : "markHudDirty",
+  "methodSignature" : "cGame.method_96()",
+  "description" : "Rename cGame class's method_96() method to markHudDirty"
+}

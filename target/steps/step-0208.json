@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 208,
+  "reasoning" : "method_185 draws a filled segmented bar of 14-pixel cells, with the filled count from field_182, at the top of the screen.",
+  "className" : "cGame",
+  "signature" : [ "javax.microedition.lcdui.Graphics", "int" ],
+  "oldName" : "method_185",
+  "newName" : "drawSegmentBar",
+  "methodSignature" : "cGame.method_185(javax.microedition.lcdui.Graphics, int)",
+  "description" : "Rename cGame class's method_185() method to drawSegmentBar"
+}

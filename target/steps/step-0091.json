@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 91,
+  "reasoning" : "Filled from loadSpritesFromFile(\"/demoui.f\") and indexed as [row][7] when drawing HUD elements, so it holds the UI images.",
+  "className" : "cGame",
+  "oldName" : "field_319",
+  "newName" : "uiImages",
+  "description" : "Rename cGame class's field_319 field to uiImages"
+}

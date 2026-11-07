@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 158,
+  "reasoning" : "Nulls the level arrays and most sprite caches, resets level flags, then calls method_171; used by most state exits to free level data.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_95",
+  "newName" : "unloadLevelResources",
+  "methodSignature" : "cGame.method_95()",
+  "description" : "Rename cGame class's method_95() method to unloadLevelResources"
+}

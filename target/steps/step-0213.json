@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 213,
+  "reasoning" : "method_211 sets the player's sprite animation via field_323[0].SetAnim, choosing the animation id from a mapping of the tile under the player and the requested action.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_211",
+  "newName" : "setPlayerAnimation",
+  "methodSignature" : "cGame.method_211(int)",
+  "description" : "Rename cGame class's method_211() method to setPlayerAnimation"
+}

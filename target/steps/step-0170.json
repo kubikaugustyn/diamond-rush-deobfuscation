@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 170,
+  "reasoning" : "Reads the flag byte stored for a level in the record.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_116",
+  "newName" : "getLevelFlags",
+  "methodSignature" : "cGame.method_116(int, int)",
+  "description" : "Rename cGame class's method_116() method to getLevelFlags"
+}

@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 119,
+  "reasoning" : "field_353 is a final cSoundEngine created in init and used for playSound/releaseAllPlayers/freeCrtPlayerResource calls.",
+  "className" : "cGame",
+  "oldName" : "field_353",
+  "newName" : "soundEngine",
+  "description" : "Rename cGame class's field_353 field to soundEngine"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 60,
+  "reasoning" : "method_17 clears row 0 of each grid and places the given number of randomly positioned gems in it, so it spawns a new row.",
+  "className" : "GemsRain",
+  "signature" : [ "int" ],
+  "oldName" : "method_17",
+  "newName" : "spawnGemRow",
+  "methodSignature" : "GemsRain.method_17(int)",
+  "description" : "Rename GemsRain class's method_17() method to spawnGemRow"
+}

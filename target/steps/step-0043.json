@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 43,
+  "reasoning" : "field_66 is the direction flag for the bobbing arrow offset: it flips when field_67 leaves the range 1-3.",
+  "className" : "IGA",
+  "oldName" : "field_66",
+  "newName" : "arrowOffsetDecreasing",
+  "description" : "Rename IGA class's field_66 field to arrowOffsetDecreasing"
+}

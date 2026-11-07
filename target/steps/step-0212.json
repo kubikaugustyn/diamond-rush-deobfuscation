@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 212,
+  "reasoning" : "method_209 draws an integer right-to-left using a digit image array, with a zero special case, so it renders a number.",
+  "className" : "cGame",
+  "signature" : [ "javax.microedition.lcdui.Graphics", "int", "int", "int", "javax.microedition.lcdui.Image[]", "int" ],
+  "oldName" : "method_209",
+  "newName" : "drawNumber",
+  "methodSignature" : "cGame.method_209(javax.microedition.lcdui.Graphics, int, int, int, javax.microedition.lcdui.Image[], int)",
+  "description" : "Rename cGame class's method_209() method to drawNumber"
+}

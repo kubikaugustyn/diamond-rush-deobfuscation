@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 130,
+  "reasoning" : "field_567 is a static int countdown that method_436 decrements by elapsed milliseconds and method_437 sets to a duration, so it is a countdown in milliseconds.",
+  "className" : "cGame",
+  "oldName" : "field_567",
+  "newName" : "countdownMillis",
+  "description" : "Rename cGame class's field_567 field to countdownMillis"
+}

@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 140,
+  "reasoning" : "field_513 is a 186x226 Image created in method_412, and field_514 is its getGraphics(), so this pair is a popup or panel buffer drawn over the screen.",
+  "className" : "cGame",
+  "oldName" : "field_513",
+  "newName" : "popupImage",
+  "description" : "Rename cGame class's field_513 field to popupImage"
+}

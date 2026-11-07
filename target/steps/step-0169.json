@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 169,
+  "reasoning" : "Restores life count, field_366 and collected diamonds from recordData into the player state; the reverse of storePlayerStateToRecord.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_115",
+  "newName" : "restorePlayerStateFromRecord",
+  "methodSignature" : "cGame.method_115()",
+  "description" : "Rename cGame class's method_115() method to restorePlayerStateFromRecord"
+}

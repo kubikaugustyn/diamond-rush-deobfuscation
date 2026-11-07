@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 54,
+  "reasoning" : "field_31 is added to gridOffsetA on each update (initial value 4), so it is the scroll speed of grid A.",
+  "className" : "GemsRain",
+  "oldName" : "field_31",
+  "newName" : "scrollSpeedA",
+  "description" : "Rename GemsRain class's field_31 field to scrollSpeedA"
+}

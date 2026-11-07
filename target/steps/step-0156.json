@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 156,
+  "reasoning" : "Frees the demo interpreters and the demo sprite caches (sprites 42 and 43) and clears the flag; called from method_71 case 0 when leaving the demo.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_92",
+  "newName" : "unloadDemoResources",
+  "methodSignature" : "cGame.method_92()",
+  "description" : "Rename cGame class's method_92() method to unloadDemoResources"
+}

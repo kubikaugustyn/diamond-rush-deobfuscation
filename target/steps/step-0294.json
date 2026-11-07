@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 294,
+  "reasoning" : "Loops the 3x3 neighborhood of the player's cell and advances the animation frame packed in bits 28-31 of the cell word, resetting it past the last frame of field_320[13].",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_326",
+  "newName" : "advanceCellAnimation",
+  "methodSignature" : "cGame.method_326()",
+  "description" : "Rename cGame class's method_326() method to advanceCellAnimation"
+}

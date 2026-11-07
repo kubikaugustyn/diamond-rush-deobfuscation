@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 246,
+  "reasoning" : "Runs the player action state machine keyed on the current animation id (field_233 flags), choosing the next animation and ending actions when the animation finishes.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_260",
+  "newName" : "updatePlayerActionState",
+  "methodSignature" : "cGame.method_260()",
+  "description" : "Rename cGame class's method_260() method to updatePlayerActionState"
+}

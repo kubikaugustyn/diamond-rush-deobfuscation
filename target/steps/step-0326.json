@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 326,
+  "reasoning" : "Loads the tip sprite from /tips.f and the tip text from /tipst.f for the given tip index into tipSprite and mapData.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_403",
+  "newName" : "loadTipResources",
+  "methodSignature" : "cGame.method_403(int)",
+  "description" : "Rename cGame class's method_403() method to loadTipResources"
+}

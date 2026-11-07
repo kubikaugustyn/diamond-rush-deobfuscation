@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 200,
+  "reasoning" : "method_166 draws the HUD: the diamond, red diamond, key, and life counters with their panel graphics, redrawing only when values change.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_166",
+  "newName" : "drawHud",
+  "methodSignature" : "cGame.method_166()",
+  "description" : "Rename cGame class's method_166() method to drawHud"
+}

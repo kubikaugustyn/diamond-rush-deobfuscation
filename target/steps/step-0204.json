@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 204,
+  "reasoning" : "method_173 draws the top and bottom border lines of the menu area between the given y coordinates, plus a splash fill for some game states.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_173",
+  "newName" : "drawMenuFrame",
+  "methodSignature" : "cGame.method_173(int, int)",
+  "description" : "Rename cGame class's method_173() method to drawMenuFrame"
+}

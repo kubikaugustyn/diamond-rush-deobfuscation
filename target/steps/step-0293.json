@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 293,
+  "reasoning" : "Chooses a movement direction (0 for none, 1 to 4 otherwise) from the offset to the target, preferring the dominant axis and falling back to the other axis when the step is blocked by a tile.",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "int", "int", "boolean" ],
+  "oldName" : "method_324",
+  "newName" : "chooseMoveDirection",
+  "methodSignature" : "cGame.method_324(int, int, int, int, boolean)",
+  "description" : "Rename cGame class's method_324() method to chooseMoveDirection"
+}

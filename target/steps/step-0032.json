@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 32,
+  "reasoning" : "method_31 reads the demo script file and sprite pack for a given demo id and fills demoSprites and demoScripts, so it is the loader.",
+  "className" : "DemoInterpreter",
+  "signature" : [ "int" ],
+  "oldName" : "method_31",
+  "newName" : "loadDemo",
+  "methodSignature" : "DemoInterpreter.method_31(int)",
+  "description" : "Rename DemoInterpreter class's method_31() method to loadDemo"
+}

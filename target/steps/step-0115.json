@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 115,
+  "reasoning" : "Set to the frame count of sprite field_320[9] via method_313 and compared against field_130 to stop an animation, so it is that animation's frame count.",
+  "className" : "cGame",
+  "oldName" : "field_129",
+  "newName" : "animFrameCount",
+  "description" : "Rename cGame class's field_129 field to animFrameCount"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 249,
+  "reasoning" : "Scans the 3x3 tile neighbourhood around the offset point and calls damagePlayer when the player stands in any of those tiles.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_268",
+  "newName" : "damageIfPlayerNear",
+  "methodSignature" : "cGame.method_268(int, int)",
+  "description" : "Rename cGame class's method_268() method to damageIfPlayerNear"
+}

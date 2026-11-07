@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 144,
+  "reasoning" : "Resets the state timer: stores the current time in field_228 and zeroes frameCounter, field_227 and field_175; called after every gameState transition.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_65",
+  "newName" : "resetStateTimer",
+  "methodSignature" : "cGame.method_65()",
+  "description" : "Rename cGame class's method_65() method to resetStateTimer"
+}

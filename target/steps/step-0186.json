@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 186,
+  "reasoning" : "Draws the intro sequence for each field_145 step (gem rain, progress text); paired with updateIntroSequence and called from renderGameState case 29.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_136",
+  "newName" : "drawIntroSequence",
+  "methodSignature" : "cGame.method_136()",
+  "description" : "Rename cGame class's method_136() method to drawIntroSequence"
+}

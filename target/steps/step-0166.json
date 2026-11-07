@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 166,
+  "reasoning" : "Writes recordData into the DiamondRush record store, adding or replacing record 1; the counterpart of loadGameRecord.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_110",
+  "newName" : "saveGameRecord",
+  "methodSignature" : "cGame.method_110()",
+  "description" : "Rename cGame class's method_110() method to saveGameRecord"
+}

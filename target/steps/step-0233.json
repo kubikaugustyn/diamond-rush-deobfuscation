@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 233,
+  "reasoning" : "method_239 walks the field_192 moving-platform list, slides each platform's ends with findPlatformEnd, and applies the conversion to every tile it spans.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_239",
+  "newName" : "updateMovingPlatforms",
+  "methodSignature" : "cGame.method_239()",
+  "description" : "Rename cGame class's method_239() method to updateMovingPlatforms"
+}

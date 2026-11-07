@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 285,
+  "reasoning" : "Advances a falling object's state in field_333 (fall timer, landing on the cell below, or hitting the player and breaking tiles), moving the tile down when it lands.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_314",
+  "newName" : "updateFallingObject",
+  "methodSignature" : "cGame.method_314()",
+  "description" : "Rename cGame class's method_314() method to updateFallingObject"
+}

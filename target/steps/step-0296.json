@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 296,
+  "reasoning" : "Returns true only when the cell type at (x, y) is one of the open/walkable codes 0, 1, 8 or 9, and is used as a passability test by the grid movement code.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_344",
+  "newName" : "isPassableCellType",
+  "methodSignature" : "cGame.method_344(int, int)",
+  "description" : "Rename cGame class's method_344() method to isPassableCellType"
+}

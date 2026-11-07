@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 76,
+  "reasoning" : "Copies the live level state (position, diamonds, keys, arrays) into backup fields, and is called right after the checkpoint sound, so it saves a checkpoint.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_346",
+  "newName" : "saveCheckpoint",
+  "methodSignature" : "cGame.method_346()",
+  "description" : "Rename cGame class's method_346() method to saveCheckpoint"
+}

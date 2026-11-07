@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 338,
+  "reasoning" : "Per-frame map cursor update: when the cursor is on the selected node it draws the highlight, otherwise it starts or continues the path animation and then the cursor move.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_417",
+  "newName" : "updateMapCursor",
+  "methodSignature" : "cGame.method_417()",
+  "description" : "Rename cGame class's method_417() method to updateMapCursor"
+}

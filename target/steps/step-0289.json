@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 289,
+  "reasoning" : "Checks the tiles along a row or column from the tile at (x, y) toward the player, applying a damage call to the player when the player stands in that line.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_320",
+  "newName" : "checkLineHazard",
+  "methodSignature" : "cGame.method_320(int, int)",
+  "description" : "Rename cGame class's method_320() method to checkLineHazard"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 352,
+  "reasoning" : "Thin wrapper that plays a sound effect through field_353.playSound(id).",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_433",
+  "newName" : "playSoundEffect",
+  "methodSignature" : "cGame.method_433(int)",
+  "description" : "Rename cGame class's method_433() method to playSoundEffect"
+}

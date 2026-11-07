@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 301,
+  "reasoning" : "Builds two 24-pixel-cell boxes from a moving entity's cell, direction and step, and tests overlap with the player's box (called with playerXPos/playerYPos from method_351), so it is a hit test against the player.",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "int", "int", "int", "int", "int", "int" ],
+  "oldName" : "method_350",
+  "newName" : "checkEntityHitsPlayer",
+  "methodSignature" : "cGame.method_350(int, int, int, int, int, int, int, int)",
+  "description" : "Rename cGame class's method_350() method to checkEntityHitsPlayer"
+}

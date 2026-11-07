@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 248,
+  "reasoning" : "Dispatches the per-frame update to a level-phase handler based on field_174 (phases 1 to 5), so it selects the active phase logic.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_266",
+  "newName" : "updateLevelPhase",
+  "methodSignature" : "cGame.method_266()",
+  "description" : "Rename cGame class's method_266() method to updateLevelPhase"
+}

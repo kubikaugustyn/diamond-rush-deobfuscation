@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 211,
+  "reasoning" : "method_191 positions and paints the player sprite (field_323 instance chosen by field_233), plus the held-item and carry effects, so it draws the player.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_191",
+  "newName" : "drawPlayer",
+  "methodSignature" : "cGame.method_191()",
+  "description" : "Rename cGame class's method_191() method to drawPlayer"
+}

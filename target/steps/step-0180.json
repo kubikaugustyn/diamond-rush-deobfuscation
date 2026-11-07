@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 180,
+  "reasoning" : "Returns true when the (x, y) pickup is no longer in the level's pending list, meaning it was already collected.",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "int", "int" ],
+  "oldName" : "method_128",
+  "newName" : "isPickupCollected",
+  "methodSignature" : "cGame.method_128(int, int, int, int)",
+  "description" : "Rename cGame class's method_128() method to isPickupCollected"
+}

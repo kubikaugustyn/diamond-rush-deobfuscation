@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 21,
+  "reasoning" : "method_19 executes one display command per tick (draws sprites, dialog text, fills, and updates camera), so it is the per-command renderer.",
+  "className" : "DemoInterpreter",
+  "signature" : [ "javax.microedition.lcdui.Graphics", "byte[]", "int" ],
+  "oldName" : "method_19",
+  "newName" : "renderCommand",
+  "methodSignature" : "DemoInterpreter.method_19(javax.microedition.lcdui.Graphics, byte[], int)",
+  "description" : "Rename DemoInterpreter class's method_19() method to renderCommand"
+}

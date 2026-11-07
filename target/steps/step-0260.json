@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 260,
+  "reasoning" : "Advances a rising hazard (field_176) toward the top of the level each frame and damages the player if the hazard reaches the player's row.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_283",
+  "newName" : "updateRisingHazard",
+  "methodSignature" : "cGame.method_283()",
+  "description" : "Rename cGame class's method_283() method to updateRisingHazard"
+}

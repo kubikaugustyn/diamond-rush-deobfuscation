@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 210,
+  "reasoning" : "method_190 draws a one-pixel full-screen rectangle whose color cycles with frameCounter, a flashing border effect.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_190",
+  "newName" : "drawFlashingBorder",
+  "methodSignature" : "cGame.method_190()",
+  "description" : "Rename cGame class's method_190() method to drawFlashingBorder"
+}

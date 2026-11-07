@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 11,
+  "reasoning" : "field_47 is set by the dialog commands (14/15) and gates drawing of the dialog box in method_22.",
+  "className" : "DemoInterpreter",
+  "oldName" : "field_47",
+  "newName" : "dialogVisible",
+  "description" : "Rename DemoInterpreter class's field_47 field to dialogVisible"
+}

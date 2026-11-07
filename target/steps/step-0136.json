@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 136,
+  "reasoning" : "field_354 is a DemoInterpreter that is nulled and reset, and calls restartDemo(), so it is the currently playing demo.",
+  "className" : "cGame",
+  "oldName" : "field_354",
+  "newName" : "currentDemo",
+  "description" : "Rename cGame class's field_354 field to currentDemo"
+}

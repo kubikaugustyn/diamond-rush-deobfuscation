@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 254,
+  "reasoning" : "Returns the boss's target tile column computed as 10 plus field_183 times (2 or 3), a column index derived from the boss stage.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_274",
+  "newName" : "getBossColumn",
+  "methodSignature" : "cGame.method_274()",
+  "description" : "Rename cGame class's method_274() method to getBossColumn"
+}

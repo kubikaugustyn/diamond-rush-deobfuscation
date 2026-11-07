@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 41,
+  "reasoning" : "field_62 holds the page texts loaded from lang_IGA.f and drawn by drawPage.",
+  "className" : "IGA",
+  "oldName" : "field_62",
+  "newName" : "pageTexts",
+  "description" : "Rename IGA class's field_62 field to pageTexts"
+}

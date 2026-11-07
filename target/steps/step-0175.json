@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 175,
+  "reasoning" : "Returns the record offset of a level inside its world block; used by all per-level record accessors.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_123",
+  "newName" : "getLevelRecordOffset",
+  "methodSignature" : "cGame.method_123(int, int)",
+  "description" : "Rename cGame class's method_123() method to getLevelRecordOffset"
+}

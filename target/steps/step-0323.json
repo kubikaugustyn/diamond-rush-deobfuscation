@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 323,
+  "reasoning" : "Clears a 9-bit group inside the script grid cell field_500[x][y] and marks the cell dirty, the clearing counterpart of setGridBits.",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "byte" ],
+  "oldName" : "method_394",
+  "newName" : "clearGridBits",
+  "methodSignature" : "cGame.method_394(int, int, byte)",
+  "description" : "Rename cGame class's method_394() method to clearGridBits"
+}

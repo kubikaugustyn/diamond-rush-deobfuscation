@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 77,
+  "reasoning" : "Returns true when the seal item finishes sliding to its slot and plays its flash; animates a seal item (called with field_123).",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_138",
+  "newName" : "animateSealItem",
+  "methodSignature" : "cGame.method_138(int)",
+  "description" : "Rename cGame class's method_138() method to animateSealItem"
+}

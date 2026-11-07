@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 318,
+  "reasoning" : "Static bit-field extractor over the 64-bit script entry word field_502[index], returning the bit range given by shift and width.",
+  "className" : "cGame",
+  "signature" : [ "byte", "byte", "byte" ],
+  "oldName" : "method_377",
+  "newName" : "getEntryBits",
+  "methodSignature" : "cGame.method_377(byte, byte, byte)",
+  "description" : "Rename cGame class's method_377() method to getEntryBits"
+}

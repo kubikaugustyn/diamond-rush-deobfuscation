@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 55,
+  "reasoning" : "field_33 is the second gem grid, used only when twoGridsEnabled is set.",
+  "className" : "GemsRain",
+  "oldName" : "field_33",
+  "newName" : "gemGridB",
+  "description" : "Rename GemsRain class's field_33 field to gemGridB"
+}

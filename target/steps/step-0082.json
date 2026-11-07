@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 82,
+  "reasoning" : "Only calls drawMenu under the gameState 4 comment \"Title screen (after button pressed)\", so it draws the title screen.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_141",
+  "newName" : "drawTitleScreen",
+  "methodSignature" : "cGame.method_141()",
+  "description" : "Rename cGame class's method_141() method to drawTitleScreen"
+}

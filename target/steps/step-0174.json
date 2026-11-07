@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 174,
+  "reasoning" : "Returns the record offset of a world's block, clamping the world index to 0..2; used by every per-world record accessor.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_120",
+  "newName" : "getWorldRecordOffset",
+  "methodSignature" : "cGame.method_120(int)",
+  "description" : "Rename cGame class's method_120() method to getWorldRecordOffset"
+}

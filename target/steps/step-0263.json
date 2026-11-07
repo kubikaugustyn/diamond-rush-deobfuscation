@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 263,
+  "reasoning" : "Moves the tile at (x, y) one cell left or right, writing the new tile type and the sliding direction bits and marking the moved tile for animation.",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "boolean", "byte" ],
+  "oldName" : "method_286",
+  "newName" : "pushTileSideways",
+  "methodSignature" : "cGame.method_286(int, int, boolean, byte)",
+  "description" : "Rename cGame class's method_286() method to pushTileSideways"
+}

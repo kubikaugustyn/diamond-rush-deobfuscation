@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 84,
+  "reasoning" : "Same pattern as field_201 on the Y axis (subtracted from world Y, used as field_256 > field_202 bound), so it is the camera Y.",
+  "className" : "cGame",
+  "oldName" : "field_202",
+  "newName" : "cameraY",
+  "description" : "Rename cGame class's field_202 field to cameraY"
+}

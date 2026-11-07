@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 304,
+  "reasoning" : "Returns the font's line height as its line spacing plus the module-1 height byte, used for vertical text layout.",
+  "className" : "cGame",
+  "signature" : [ "ASprite" ],
+  "oldName" : "method_362",
+  "newName" : "getFontLineHeight",
+  "methodSignature" : "cGame.method_362(ASprite)",
+  "description" : "Rename cGame class's method_362() method to getFontLineHeight"
+}

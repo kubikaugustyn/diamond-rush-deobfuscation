@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 193,
+  "reasoning" : "method_149 is a switch mapping tile type ids to field_320 sprite indices, and sets palette on some cases.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_149",
+  "newName" : "getTileSpriteId",
+  "methodSignature" : "cGame.method_149(int)",
+  "description" : "Rename cGame class's method_149() method to getTileSpriteId"
+}

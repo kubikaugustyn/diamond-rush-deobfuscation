@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 168,
+  "reasoning" : "Copies the player's life count and field_366 into recordData; the counterpart of restorePlayerStateFromRecord.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_114",
+  "newName" : "storePlayerStateToRecord",
+  "methodSignature" : "cGame.method_114()",
+  "description" : "Rename cGame class's method_114() method to storePlayerStateToRecord"
+}

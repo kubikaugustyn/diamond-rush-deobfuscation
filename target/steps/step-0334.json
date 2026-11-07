@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 334,
+  "reasoning" : "Draws the level number label (\"level\" or \"bonus\" text from field_510/field_511 plus the number) at the top-left of the map screen.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_413",
+  "newName" : "drawMapLevelLabel",
+  "methodSignature" : "cGame.method_413()",
+  "description" : "Rename cGame class's method_413() method to drawMapLevelLabel"
+}

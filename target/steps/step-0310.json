@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 310,
+  "reasoning" : "Copies the backup script arrays and scalars back into the live fields, the inverse of backupScriptState, and is called from restoreCheckpoint (method_347).",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_369",
+  "newName" : "restoreScriptState",
+  "methodSignature" : "cGame.method_369()",
+  "description" : "Rename cGame class's method_369() method to restoreScriptState"
+}

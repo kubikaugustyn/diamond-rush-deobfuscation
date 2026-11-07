@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 325,
+  "reasoning" : "Walks the water front along the flow direction from (x, y), writing water units into script slots and returning the total spread amount, so it advances water flow across the grid.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_398",
+  "newName" : "spreadWater",
+  "methodSignature" : "cGame.method_398(int, int)",
+  "description" : "Rename cGame class's method_398() method to spreadWater"
+}

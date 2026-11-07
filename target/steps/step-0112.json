@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 112,
+  "reasoning" : "Counts 0 to 20 and drives setColor(... * field_128) with an odd/even toggle, so it is a flash/fade timer.",
+  "className" : "cGame",
+  "oldName" : "field_128",
+  "newName" : "flashTimer",
+  "description" : "Rename cGame class's field_128 field to flashTimer"
+}

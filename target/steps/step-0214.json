@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 214,
+  "reasoning" : "method_212 handles input on the item shop screen: it moves the selection with up and down, confirms purchases, and sets the price or already-owned message.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_212",
+  "newName" : "handleShopInput",
+  "methodSignature" : "cGame.method_212()",
+  "description" : "Rename cGame class's method_212() method to handleShopInput"
+}

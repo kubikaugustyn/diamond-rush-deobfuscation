@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 22,
+  "reasoning" : "method_20 handles the text-reveal and dialog-advance opcodes (2, 7, 27) on each tick, so it advances the command's timers.",
+  "className" : "DemoInterpreter",
+  "signature" : [ "byte[]", "int" ],
+  "oldName" : "method_20",
+  "newName" : "tickCommand",
+  "methodSignature" : "DemoInterpreter.method_20(byte[], int)",
+  "description" : "Rename DemoInterpreter class's method_20() method to tickCommand"
+}

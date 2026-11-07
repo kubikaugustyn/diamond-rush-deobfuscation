@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 244,
+  "reasoning" : "Switches on a load-step index and performs the level setup step (initial save-record values, shop state, life bonus checks); called as the loading sequence advances assetsLoaded.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_249",
+  "newName" : "runLevelLoadStep",
+  "methodSignature" : "cGame.method_249(int)",
+  "description" : "Rename cGame class's method_249() method to runLevelLoadStep"
+}

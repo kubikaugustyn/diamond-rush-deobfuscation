@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 262,
+  "reasoning" : "Per-frame camera follow: eases cameraX (field_203) and cameraY (field_204) toward the player position with dead zones and clamps to level bounds, then updates the drawn offsets field_201/202.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_285",
+  "newName" : "updateCamera",
+  "methodSignature" : "cGame.method_285()",
+  "description" : "Rename cGame class's method_285() method to updateCamera"
+}

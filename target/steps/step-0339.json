@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 339,
+  "reasoning" : "Moves the cursor sprite from (x1, y1) toward (x2, y2) with a Bresenham-style step per frame, drawing it each step, and returns true once it arrives.",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "int", "int" ],
+  "oldName" : "method_418",
+  "newName" : "animateCursorMove",
+  "methodSignature" : "cGame.method_418(int, int, int, int)",
+  "description" : "Rename cGame class's method_418() method to animateCursorMove"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 316,
+  "reasoning" : "Static bit-field extractor over the 64-bit script slot word field_501[slot-1], returning the bit range given by shift and width.",
+  "className" : "cGame",
+  "signature" : [ "int", "byte", "byte" ],
+  "oldName" : "method_375",
+  "newName" : "getSlotBits",
+  "methodSignature" : "cGame.method_375(int, byte, byte)",
+  "description" : "Rename cGame class's method_375() method to getSlotBits"
+}

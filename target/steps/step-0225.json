@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 225,
+  "reasoning" : "method_228 handles up, down, fire, and back keys on menus, moving the selection with a 300 ms repeat guard and calling handleMenuBack on the back key.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_228",
+  "newName" : "handleMenuInput",
+  "methodSignature" : "cGame.method_228()",
+  "description" : "Rename cGame class's method_228() method to handleMenuInput"
+}

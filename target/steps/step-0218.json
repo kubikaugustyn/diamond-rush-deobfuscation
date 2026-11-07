@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 218,
+  "reasoning" : "method_218 resets the new-game state: sets gameState to 16, resets lives, diamonds and red diamonds, and sets the loading asset total.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_218",
+  "newName" : "startNewGame",
+  "methodSignature" : "cGame.method_218()",
+  "description" : "Rename cGame class's method_218() method to startNewGame"
+}

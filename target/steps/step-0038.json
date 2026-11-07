@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 38,
+  "reasoning" : "field_59 is the sprite loaded from /tips.f, whose animation frames 0-3 are drawn as the left/right arrows.",
+  "className" : "IGA",
+  "oldName" : "field_59",
+  "newName" : "tipsSprite",
+  "description" : "Rename IGA class's field_59 field to tipsSprite"
+}

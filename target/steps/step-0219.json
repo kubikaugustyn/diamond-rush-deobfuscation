@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 219,
+  "reasoning" : "method_221 handles input on the seal menu: it sets the seal arrow move direction from the arrow keys and goes back to the main menu on the back key.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_221",
+  "newName" : "handleSealMenuInput",
+  "methodSignature" : "cGame.method_221()",
+  "description" : "Rename cGame class's method_221() method to handleSealMenuInput"
+}

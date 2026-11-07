@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 64,
+  "reasoning" : "method_443 stops the game music, releases the sound engine, clears references and calls destroyApp, so it is a full shutdown.",
+  "className" : "GloftDIRU",
+  "signature" : [ ],
+  "oldName" : "method_443",
+  "newName" : "releaseAndDestroy",
+  "methodSignature" : "GloftDIRU.method_443()",
+  "description" : "Rename GloftDIRU class's method_443() method to releaseAndDestroy"
+}

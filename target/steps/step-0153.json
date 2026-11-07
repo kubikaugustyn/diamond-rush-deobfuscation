@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 153,
+  "reasoning" : "Level asset loading state machine driven by assetsLoaded (block sprites, gen and cm sprites, demos, player sprite, then gameState 1); called from updateGameState case 5.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_78",
+  "newName" : "loadLevelAssetStep",
+  "methodSignature" : "cGame.method_78()",
+  "description" : "Rename cGame class's method_78() method to loadLevelAssetStep"
+}

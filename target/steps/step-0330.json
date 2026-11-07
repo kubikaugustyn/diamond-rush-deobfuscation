@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 330,
+  "reasoning" : "Allocates the 12x12 long map-cell array field_509 and the 20-entry path-point buffer field_544 used by the level-select map.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_409",
+  "newName" : "allocateMapBuffers",
+  "methodSignature" : "cGame.method_409()",
+  "description" : "Rename cGame class's method_409() method to allocateMapBuffers"
+}

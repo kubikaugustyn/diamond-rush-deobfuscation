@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 317,
+  "reasoning" : "Writes a value into a bit range of the script slot word field_501[slot-1], the setter paired with getSlotBits.",
+  "className" : "cGame",
+  "signature" : [ "int", "byte", "byte", "byte" ],
+  "oldName" : "method_376",
+  "newName" : "setSlotBits",
+  "methodSignature" : "cGame.method_376(int, byte, byte, byte)",
+  "description" : "Rename cGame class's method_376() method to setSlotBits"
+}

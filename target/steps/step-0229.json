@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 229,
+  "reasoning" : "method_235 destroys the tile at the given coordinates by clearing its field_332 entry and, for two-tile type 48 objects, clearing the paired tile too.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_235",
+  "newName" : "destroyTile",
+  "methodSignature" : "cGame.method_235(int, int)",
+  "description" : "Rename cGame class's method_235() method to destroyTile"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 161,
+  "reasoning" : "Returns whether the record store has a saved game (recordData[13] != 0); the title menu offers Continue only when this is true.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_105",
+  "newName" : "hasSavedGame",
+  "methodSignature" : "cGame.method_105()",
+  "description" : "Rename cGame class's method_105() method to hasSavedGame"
+}

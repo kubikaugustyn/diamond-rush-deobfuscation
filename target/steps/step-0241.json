@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 241,
+  "reasoning" : "Sets the boulder tile's flag bit 16 and resets its timer to 24 so the boulder becomes armed to fall; called from the trigger code in method_303.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_257",
+  "newName" : "armBoulder",
+  "methodSignature" : "cGame.method_257(int, int)",
+  "description" : "Rename cGame class's method_257() method to armBoulder"
+}

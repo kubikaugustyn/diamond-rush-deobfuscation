@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 15,
+  "reasoning" : "field_51 is the sprite index into demoSprites for the animated dialog element, set by command 11.",
+  "className" : "DemoInterpreter",
+  "oldName" : "field_51",
+  "newName" : "dialogAnimSpriteId",
+  "description" : "Rename DemoInterpreter class's field_51 field to dialogAnimSpriteId"
+}

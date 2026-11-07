@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 73,
+  "reasoning" : "Sets field_532 to the next level and flags it unlocked in the record when the current level's requirements are met (field_446 set on unlock).",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_252",
+  "newName" : "unlockNextLevel",
+  "methodSignature" : "cGame.method_252()",
+  "description" : "Rename cGame class's method_252() method to unlockNextLevel"
+}

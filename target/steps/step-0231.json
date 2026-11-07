@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 231,
+  "reasoning" : "method_237 scans from a moving platform end along its row in the given direction until a blocking tile is hit, and returns the last free coordinate.",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "int", "int" ],
+  "oldName" : "method_237",
+  "newName" : "findPlatformEnd",
+  "methodSignature" : "cGame.method_237(int, int, int, int)",
+  "description" : "Rename cGame class's method_237() method to findPlatformEnd"
+}

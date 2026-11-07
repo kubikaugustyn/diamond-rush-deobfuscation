@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 309,
+  "reasoning" : "Copies the live script/grid arrays (field_500, 501-502 and the related scalars) into backup arrays, and it is called at the end of saveCheckpoint (method_346), so it snapshots script state.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_368",
+  "newName" : "backupScriptState",
+  "methodSignature" : "cGame.method_368()",
+  "description" : "Rename cGame class's method_368() method to backupScriptState"
+}

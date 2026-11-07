@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 320,
+  "reasoning" : "Searches the 15 script entries for one whose stored x and y coordinates match the arguments and returns its index, or -1 if none match.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_379",
+  "newName" : "findSlotAt",
+  "methodSignature" : "cGame.method_379(int, int)",
+  "description" : "Rename cGame class's method_379() method to findSlotAt"
+}

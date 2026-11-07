@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 345,
+  "reasoning" : "Staged loader driven by a step index: each case loads one resource group (map file, map sprites, stat icons) and the last case moves to the next game state, matching the in-code comment \"Loads map data?\".",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_425",
+  "newName" : "loadMapAssetStep",
+  "methodSignature" : "cGame.method_425(int)",
+  "description" : "Rename cGame class's method_425() method to loadMapAssetStep"
+}

@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 17,
+  "reasoning" : "field_53 is a skip mode: when true, method_28 only executes a small set of opcodes and marks the rest finished, so it is a fast-forward flag.",
+  "className" : "DemoInterpreter",
+  "oldName" : "field_53",
+  "newName" : "skipping",
+  "description" : "Rename DemoInterpreter class's field_53 field to skipping"
+}

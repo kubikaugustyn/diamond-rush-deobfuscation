@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 24,
+  "reasoning" : "method_22 draws the whole current script plus the dialog overlay, so it is the paint entry point.",
+  "className" : "DemoInterpreter",
+  "signature" : [ "javax.microedition.lcdui.Graphics" ],
+  "oldName" : "method_22",
+  "newName" : "renderScript",
+  "methodSignature" : "DemoInterpreter.method_22(javax.microedition.lcdui.Graphics)",
+  "description" : "Rename DemoInterpreter class's method_22() method to renderScript"
+}

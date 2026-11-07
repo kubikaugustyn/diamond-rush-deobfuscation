@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 65,
+  "reasoning" : "method_444 nulls the game and display references and runs GC, so it clears references.",
+  "className" : "GloftDIRU",
+  "signature" : [ ],
+  "oldName" : "method_444",
+  "newName" : "clearReferences",
+  "methodSignature" : "GloftDIRU.method_444()",
+  "description" : "Rename GloftDIRU class's method_444() method to clearReferences"
+}

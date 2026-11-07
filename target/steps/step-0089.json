@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 89,
+  "reasoning" : "Holds ASprite objects loaded from .f files via loadGfxFile and indexed by sprite id (field_320[55], field_320[10]), so it is the sprite table.",
+  "className" : "cGame",
+  "oldName" : "field_320",
+  "newName" : "sprites",
+  "description" : "Rename cGame class's field_320 field to sprites"
+}

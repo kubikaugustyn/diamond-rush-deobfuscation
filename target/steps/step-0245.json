@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 245,
+  "reasoning" : "Given the tile at the player's position in the 3x3 neighborhood, the probe test: sets the player-safe flag only when a hazard is detected. (Probe rename of a no-arg method to check whether no-arg signatures resolve.)",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_281",
+  "newName" : "resetBossState",
+  "methodSignature" : "cGame.method_281()",
+  "description" : "Rename cGame class's method_281() method to resetBossState"
+}

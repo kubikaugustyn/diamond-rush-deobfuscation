@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 45,
+  "reasoning" : "method_37 calls platformRequest with the given URL, so it opens a link.",
+  "className" : "IGA",
+  "signature" : [ "java.lang.String" ],
+  "oldName" : "method_37",
+  "newName" : "openUrl",
+  "methodSignature" : "IGA.method_37(java.lang.String)",
+  "description" : "Rename IGA class's method_37() method to openUrl"
+}

@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 39,
+  "reasoning" : "field_60 is the game font sprite (cGame.field_320[41]) used to draw and measure all page text.",
+  "className" : "IGA",
+  "oldName" : "field_60",
+  "newName" : "textSprite",
+  "description" : "Rename IGA class's field_60 field to textSprite"
+}

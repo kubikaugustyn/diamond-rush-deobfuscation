@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 226,
+  "reasoning" : "method_229 handles the back action for the current menu: it switches on crtMenu and opens the parent menu or returns to the title.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_229",
+  "newName" : "handleMenuBack",
+  "methodSignature" : "cGame.method_229()",
+  "description" : "Rename cGame class's method_229() method to handleMenuBack"
+}

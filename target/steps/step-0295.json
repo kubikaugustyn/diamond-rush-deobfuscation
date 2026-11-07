@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 295,
+  "reasoning" : "Sets the dirty/redraw marker (value 48) on the 3x3 block of cells around (x, y), which is how cell changes are flagged for repaint.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_345",
+  "newName" : "markNeighborsDirty",
+  "methodSignature" : "cGame.method_345(int, int)",
+  "description" : "Rename cGame class's method_345() method to markNeighborsDirty"
+}

@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 131,
+  "reasoning" : "field_355 is a DemoInterpreter[] that is allocated with new DemoInterpreter(this) and indexed per demo slot, so it holds the demo interpreters.",
+  "className" : "cGame",
+  "oldName" : "field_355",
+  "newName" : "demoInterpreters",
+  "description" : "Rename cGame class's field_355 field to demoInterpreters"
+}

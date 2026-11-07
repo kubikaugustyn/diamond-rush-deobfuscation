@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 148,
+  "reasoning" : "Asset-loading step selected by an index; loads seal-screen sprites and initializes seal items on the last step; called from updateGameState case 28 with assetsLoaded.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_71",
+  "newName" : "loadSealScreenStep",
+  "methodSignature" : "cGame.method_71(int)",
+  "description" : "Rename cGame class's method_71() method to loadSealScreenStep"
+}

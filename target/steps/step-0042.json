@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 42,
+  "reasoning" : "field_64 is incremented per frame and used modulo sprite frame counts and 30 for blinking, so it is an animation tick.",
+  "className" : "IGA",
+  "oldName" : "field_64",
+  "newName" : "animTick",
+  "description" : "Rename IGA class's field_64 field to animTick"
+}

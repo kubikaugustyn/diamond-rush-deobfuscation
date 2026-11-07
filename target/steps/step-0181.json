@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 181,
+  "reasoning" : "Sets level type 5 and its sprite and animation parameters for world 1 level 9; called from loadLevelData for that level.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_129",
+  "newName" : "configureSpecialLevel",
+  "methodSignature" : "cGame.method_129()",
+  "description" : "Rename cGame class's method_129() method to configureSpecialLevel"
+}

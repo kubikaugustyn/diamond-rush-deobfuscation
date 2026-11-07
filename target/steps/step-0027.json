@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 27,
+  "reasoning" : "method_25 calls resetCommand on every script block, so it resets all scripts.",
+  "className" : "DemoInterpreter",
+  "signature" : [ "byte[][]" ],
+  "oldName" : "method_25",
+  "newName" : "resetAllScripts",
+  "methodSignature" : "DemoInterpreter.method_25(byte[][])",
+  "description" : "Rename DemoInterpreter class's method_25() method to resetAllScripts"
+}

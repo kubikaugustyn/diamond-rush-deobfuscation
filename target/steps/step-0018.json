@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 18,
+  "reasoning" : "field_54 is the owning cGame instance, used throughout for camera position, player position and level size.",
+  "className" : "DemoInterpreter",
+  "oldName" : "field_54",
+  "newName" : "game",
+  "description" : "Rename DemoInterpreter class's field_54 field to game"
+}

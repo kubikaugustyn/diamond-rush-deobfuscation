@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 230,
+  "reasoning" : "method_236 is the per-frame level update: it runs timers, the end-of-level transition, the switch countdown, platform and script updates, and player movement and death checks.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_236",
+  "newName" : "updateLevelFrame",
+  "methodSignature" : "cGame.method_236()",
+  "description" : "Rename cGame class's method_236() method to updateLevelFrame"
+}

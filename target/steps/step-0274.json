@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 274,
+  "reasoning" : "Runs the camera scroll sequence state machine (field_342): starts a scroll to the target, waits, then scrolls back and clears the sequence flag.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_301",
+  "newName" : "updateCameraScrollSequence",
+  "methodSignature" : "cGame.method_301()",
+  "description" : "Rename cGame class's method_301() method to updateCameraScrollSequence"
+}

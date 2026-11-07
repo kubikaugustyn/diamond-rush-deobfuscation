@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 228,
+  "reasoning" : "method_232 activates a switch when the level is in state 3: it plays the switch sound, toggles field_311 and returns true, otherwise false.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_232",
+  "newName" : "activateSwitch",
+  "methodSignature" : "cGame.method_232()",
+  "description" : "Rename cGame class's method_232() method to activateSwitch"
+}

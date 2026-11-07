@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 135,
+  "reasoning" : "field_444 is assigned from method_116 and tested by bit masks 4, 8 and 16 that gate one-time life awards when all diamonds or gates are collected, so it stores per-level bonus-awarded flags.",
+  "className" : "cGame",
+  "oldName" : "field_444",
+  "newName" : "bonusAwardFlags",
+  "description" : "Rename cGame class's field_444 field to bonusAwardFlags"
+}

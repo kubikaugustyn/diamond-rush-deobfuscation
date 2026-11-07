@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 247,
+  "reasoning" : "Moves a pushed block toward its destination one step at a time (field_254 steps remaining, field_251 progress), stopping and updating tiles when the path is blocked.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_263",
+  "newName" : "updateBlockPush",
+  "methodSignature" : "cGame.method_263()",
+  "description" : "Rename cGame class's method_263() method to updateBlockPush"
+}

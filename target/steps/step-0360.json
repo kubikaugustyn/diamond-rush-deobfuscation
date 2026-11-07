@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 360,
+  "reasoning" : "Static bit-field extractor for an int, returning the bits at the given shift and width; the int-valued counterpart of extractGridBits.",
+  "className" : "cGame",
+  "signature" : [ "int", "byte", "byte" ],
+  "oldName" : "method_388",
+  "newName" : "extractIntBits",
+  "methodSignature" : "cGame.method_388(int, byte, byte)",
+  "description" : "Rename cGame class's method_388() method to extractIntBits"
+}

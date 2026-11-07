@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 243,
+  "reasoning" : "Thin wrapper that converts a packed boulder index into tile coordinates via field_447/field_448 and forwards to the boulder update at those coordinates.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "method_259",
+  "newName" : "updateBoulderByIndex",
+  "methodSignature" : "cGame.method_259(int)",
+  "description" : "Rename cGame class's method_259() method to updateBoulderByIndex"
+}

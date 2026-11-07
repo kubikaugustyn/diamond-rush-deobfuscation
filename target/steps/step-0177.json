@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 177,
+  "reasoning" : "Writes the collected-diamond count for a level; called from saveLevelProgress with the running total.",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "int" ],
+  "oldName" : "method_125",
+  "newName" : "setLevelCollectedDiamonds",
+  "methodSignature" : "cGame.method_125(int, int, int)",
+  "description" : "Rename cGame class's method_125() method to setLevelCollectedDiamonds"
+}

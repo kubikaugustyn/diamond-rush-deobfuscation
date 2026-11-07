@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 251,
+  "reasoning" : "Sets two horizontally adjacent tiles at (x, y) and (x+1, y) to type 50 after a bounds check, so it writes a two-tile-wide block.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_272",
+  "newName" : "setTilePair",
+  "methodSignature" : "cGame.method_272(int, int)",
+  "description" : "Rename cGame class's method_272() method to setTilePair"
+}

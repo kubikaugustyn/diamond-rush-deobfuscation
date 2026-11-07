@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 81,
+  "reasoning" : "Copies the backup fields back into the live state, resets player position and animation, and rebuilds cell state: the inverse of saveCheckpoint.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_347",
+  "newName" : "restoreCheckpoint",
+  "methodSignature" : "cGame.method_347()",
+  "description" : "Rename cGame class's method_347() method to restoreCheckpoint"
+}

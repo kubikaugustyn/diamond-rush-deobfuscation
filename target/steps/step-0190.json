@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 190,
+  "reasoning" : "method_146 creates the 264x264 background buffer image field_394 and its graphics context field_395 during static setup.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_146",
+  "newName" : "initBackgroundBuffer",
+  "methodSignature" : "cGame.method_146()",
+  "description" : "Rename cGame class's method_146() method to initBackgroundBuffer"
+}

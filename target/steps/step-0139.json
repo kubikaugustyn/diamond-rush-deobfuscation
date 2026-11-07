@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 139,
+  "reasoning" : "field_341 is the step size added to or subtracted from the camera position in method_300 while it moves toward the scroll goal.",
+  "className" : "cGame",
+  "oldName" : "field_341",
+  "newName" : "cameraScrollStep",
+  "description" : "Rename cGame class's field_341 field to cameraScrollStep"
+}

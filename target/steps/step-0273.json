@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 273,
+  "reasoning" : "Steps the camera scroll position toward the goal (cameraScrollGoalX/Y) by cameraScrollStep each call, clamps to level bounds, and returns true once both axes have arrived.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_300",
+  "newName" : "advanceCameraScroll",
+  "methodSignature" : "cGame.method_300()",
+  "description" : "Rename cGame class's method_300() method to advanceCameraScroll"
+}

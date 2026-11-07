@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 85,
+  "reasoning" : "Assigned to cameraX in the snapshot/reset code and clamped toward a target (field_203 = field_203 - 96 + var2 >> 1), so it is the camera target X.",
+  "className" : "cGame",
+  "oldName" : "field_203",
+  "newName" : "cameraTargetX",
+  "description" : "Rename cGame class's field_203 field to cameraTargetX"
+}

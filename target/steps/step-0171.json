@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 171,
+  "reasoning" : "ORs a flag byte into the level's record entry; the counterpart of getLevelFlags.",
+  "className" : "cGame",
+  "signature" : [ "int", "int", "byte" ],
+  "oldName" : "method_117",
+  "newName" : "addLevelFlags",
+  "methodSignature" : "cGame.method_117(int, int, byte)",
+  "description" : "Rename cGame class's method_117() method to addLevelFlags"
+}

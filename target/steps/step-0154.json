@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 154,
+  "reasoning" : "Options menu (menu 5) handler that toggles sound and vibration and updates the menu item text; dispatched from menuSelectionHandler case 5.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_84",
+  "newName" : "optionsMenuSelectionHandler",
+  "methodSignature" : "cGame.method_84()",
+  "description" : "Rename cGame class's method_84() method to optionsMenuSelectionHandler"
+}

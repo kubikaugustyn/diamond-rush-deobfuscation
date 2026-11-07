@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 9,
+  "reasoning" : "field_45 is the script currently being played; method_26 assigns the next block from demoScripts to it.",
+  "className" : "DemoInterpreter",
+  "oldName" : "field_45",
+  "newName" : "currentScript",
+  "description" : "Rename DemoInterpreter class's field_45 field to currentScript"
+}

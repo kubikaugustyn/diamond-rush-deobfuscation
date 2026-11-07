@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 162,
+  "reasoning" : "Sets the saved-game flag in recordData[13] and saves the record; the flag is read by hasSavedGame.",
+  "className" : "cGame",
+  "signature" : [ "boolean" ],
+  "oldName" : "method_106",
+  "newName" : "setHasSavedGame",
+  "methodSignature" : "cGame.method_106(boolean)",
+  "description" : "Rename cGame class's method_106() method to setHasSavedGame"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 207,
+  "reasoning" : "method_179 switches on field_174 and calls the per-mode draw routines (intro, pause, level-select, and others), so it draws the state-specific overlay.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_179",
+  "newName" : "drawStateOverlay",
+  "methodSignature" : "cGame.method_179()",
+  "description" : "Rename cGame class's method_179() method to drawStateOverlay"
+}

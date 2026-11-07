@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 121,
+  "reasoning" : "field_358 is the GloftDIRU MIDlet instance, used for releaseAndDestroy, notifyDestroyed and display.vibrate.",
+  "className" : "cGame",
+  "oldName" : "field_358",
+  "newName" : "midlet",
+  "description" : "Rename cGame class's field_358 field to midlet"
+}

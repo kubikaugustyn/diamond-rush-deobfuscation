@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 312,
+  "reasoning" : "Allocates the four 15-entry script arrays (field_501, field_502, field_504, field_505) and sets the script-engine initial values, a reset of script state.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_371",
+  "newName" : "resetScriptState",
+  "methodSignature" : "cGame.method_371()",
+  "description" : "Rename cGame class's method_371() method to resetScriptState"
+}

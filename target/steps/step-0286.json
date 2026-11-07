@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 286,
+  "reasoning" : "Advances the per-tile animation counter stored in field_332 for the current tile and replaces the tile with empty when the animation reaches its last frame.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_315",
+  "newName" : "advanceTileAnimation",
+  "methodSignature" : "cGame.method_315()",
+  "description" : "Rename cGame class's method_315() method to advanceTileAnimation"
+}

@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 10,
+  "reasoning" : "field_46 counts steps of the current script; it resets to 0 in method_26 and increments in method_27, and command conditions compare against it.",
+  "className" : "DemoInterpreter",
+  "oldName" : "field_46",
+  "newName" : "frameCounter",
+  "description" : "Rename DemoInterpreter class's field_46 field to frameCounter"
+}

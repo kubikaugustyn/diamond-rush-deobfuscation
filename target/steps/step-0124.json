@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 124,
+  "reasoning" : "field_368 is set to System.currentTimeMillis() at the top of each game loop iteration and later subtracted to measure frame duration.",
+  "className" : "cGame",
+  "oldName" : "field_368",
+  "newName" : "frameStartMillis",
+  "description" : "Rename cGame class's field_368 field to frameStartMillis"
+}

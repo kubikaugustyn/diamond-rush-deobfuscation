@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 303,
+  "reasoning" : "Its body increments collectedDiamonds, decrements the remaining diamond count field_156, clears the diamond tile and refreshes neighbors, which is the diamond pickup action.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_352",
+  "newName" : "collectDiamond",
+  "methodSignature" : "cGame.method_352(int, int)",
+  "description" : "Rename cGame class's method_352() method to collectDiamond"
+}

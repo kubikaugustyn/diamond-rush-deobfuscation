@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 321,
+  "reasoning" : "Per-frame driver for the script engine: it advances the active slot timer, dispatches each active slot by its type field to the mover, spawn and clear handlers, and handles the state machine in field_487.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_381",
+  "newName" : "updateScriptSlots",
+  "methodSignature" : "cGame.method_381()",
+  "description" : "Rename cGame class's method_381() method to updateScriptSlots"
+}

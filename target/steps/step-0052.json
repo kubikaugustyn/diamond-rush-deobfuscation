@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 52,
+  "reasoning" : "field_29 is the 12x13 grid of falling gems that scrollGems shifts down each step and drawGems draws.",
+  "className" : "GemsRain",
+  "oldName" : "field_29",
+  "newName" : "gemGridA",
+  "description" : "Rename GemsRain class's field_29 field to gemGridA"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 237,
+  "reasoning" : "method_205 sums the frame times of the first N frames of an animation, so it returns the total time elapsed up to a given frame.",
+  "className" : "cGame",
+  "signature" : [ "ASprite", "int", "int" ],
+  "oldName" : "method_205",
+  "newName" : "sumAnimFrameTimes",
+  "methodSignature" : "cGame.method_205(ASprite, int, int)",
+  "description" : "Rename cGame class's method_205() method to sumAnimFrameTimes"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 36,
+  "reasoning" : "method_35 writes a 32-bit little-endian int into a byte array, so it is an int writer.",
+  "className" : "DemoInterpreter",
+  "signature" : [ "byte[]", "int", "int" ],
+  "oldName" : "method_35",
+  "newName" : "writeInt",
+  "methodSignature" : "DemoInterpreter.method_35(byte[], int, int)",
+  "description" : "Rename DemoInterpreter class's method_35() method to writeInt"
+}

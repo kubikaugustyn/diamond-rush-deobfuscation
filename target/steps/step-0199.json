@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 199,
+  "reasoning" : "method_163 draws the secondary tile layer field_500 with animated overlay frames, clipped per tile, over the visible area for the camera position.",
+  "className" : "cGame",
+  "signature" : [ "int", "int" ],
+  "oldName" : "method_163",
+  "newName" : "drawOverlayLayer",
+  "methodSignature" : "cGame.method_163(int, int)",
+  "description" : "Rename cGame class's method_163() method to drawOverlayLayer"
+}

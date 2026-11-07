@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 74,
+  "reasoning" : "Item index used with Define.itemPrices[], canBuyItem() and method_214() in the shop purchase logic.",
+  "className" : "cGame",
+  "oldName" : "field_97",
+  "newName" : "crtItemIndex",
+  "description" : "Rename cGame class's field_97 field to crtItemIndex"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 145,
+  "reasoning" : "Per-frame switch on gameState that advances the current state; called from the main loop in run().",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_67",
+  "newName" : "updateGameState",
+  "methodSignature" : "cGame.method_67()",
+  "description" : "Rename cGame class's method_67() method to updateGameState"
+}

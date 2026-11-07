@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 322,
+  "reasoning" : "Zeroes one script slot word field_501[index-1], a release that frees the slot after it finishes.",
+  "className" : "cGame",
+  "signature" : [ "byte" ],
+  "oldName" : "method_382",
+  "newName" : "clearSlotWord",
+  "methodSignature" : "cGame.method_382(byte)",
+  "description" : "Rename cGame class's method_382() method to clearSlotWord"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 30,
+  "reasoning" : "method_28 is the big opcode switch that executes one command step (movement, camera, dialog, tile and sprite writes), so it is the command executor.",
+  "className" : "DemoInterpreter",
+  "signature" : [ "byte[]", "int" ],
+  "oldName" : "method_28",
+  "newName" : "executeCommand",
+  "methodSignature" : "DemoInterpreter.method_28(byte[], int)",
+  "description" : "Rename DemoInterpreter class's method_28() method to executeCommand"
+}

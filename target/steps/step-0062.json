@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 62,
+  "reasoning" : "field_575 is the cGame instance created in the constructor and given to the Display, so it is the game.",
+  "className" : "GloftDIRU",
+  "oldName" : "field_575",
+  "newName" : "game",
+  "description" : "Rename GloftDIRU class's field_575 field to game"
+}

@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 287,
+  "reasoning" : "Counts down a bomb tile's timer (field_333), plays the mine sound at the start, and on the midpoint frame converts the surrounding 3x3 tiles and damages the player if inside the blast.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_317",
+  "newName" : "updateExplosionTile",
+  "methodSignature" : "cGame.method_317()",
+  "description" : "Rename cGame class's method_317() method to updateExplosionTile"
+}

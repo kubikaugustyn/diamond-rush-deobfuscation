@@ -1,0 +1,11 @@
+{
+  "type" : "rename-method",
+  "number" : 147,
+  "reasoning" : "Timed step machine over field_145 (1s to 15s delays, gem rain, sound) that runs the intro sequence; called from updateGameState case 29 and paired with drawIntroSequence.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_69",
+  "newName" : "updateIntroSequence",
+  "methodSignature" : "cGame.method_69()",
+  "description" : "Rename cGame class's method_69() method to updateIntroSequence"
+}
