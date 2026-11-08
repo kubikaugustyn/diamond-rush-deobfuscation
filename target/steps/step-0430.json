@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 430,
+  "reasoning" : "Gets the Great Anaconda's X tile position.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "getBossColumn",
+  "newName" : "getGreatAnacondaX",
+  "description" : "Rename cGame class's getBossColumn() method to getGreatAnacondaX"
+}

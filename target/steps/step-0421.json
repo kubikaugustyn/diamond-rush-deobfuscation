@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 421,
+  "reasoning" : "Whether all stages should be unlocked",
+  "className" : "cGame",
+  "oldName" : "field_391",
+  "newName" : "cheatPageUnlockAllStages",
+  "description" : "Rename cGame class's field_391 field to cheatPageUnlockAllStages"
+}

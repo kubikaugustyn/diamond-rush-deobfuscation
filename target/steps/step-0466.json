@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 466,
+  "reasoning" : "Updates the Great Anaconda boss stage/AI.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "GreatAnaconda",
+  "newName" : "updateGreatAnaconda",
+  "description" : "Rename cGame class's GreatAnaconda() method to updateGreatAnaconda"
+}

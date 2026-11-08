@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 427,
+  "reasoning" : "Called to get the tile X for the Great Anaconda boss to spawn in. If the player is in one of its 2-wide columns, it spawns there. Otherwise, when the player is standing between the columns, it spawns with a 50:50 chance to the left or right.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "chooseBossColumn",
+  "newName" : "chooseGreatAnacondaColumn",
+  "description" : "Rename cGame class's chooseBossColumn() method to chooseGreatAnacondaColumn"
+}

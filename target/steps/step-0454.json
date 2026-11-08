@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 454,
+  "reasoning" : "Draws the Spike tile.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_207",
+  "newName" : "prepareSpikeTileDraw",
+  "description" : "Rename cGame class's method_207() method to prepareSpikeTileDraw"
+}

@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 467,
+  "reasoning" : "Updates the Evil Teutonic Knight boss stage/AI.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_269",
+  "newName" : "updateEvilKnight",
+  "description" : "Rename cGame class's method_269() method to updateEvilKnight"
+}

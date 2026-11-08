@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 461,
+  "reasoning" : "Updates the special Great Fire stage.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "updateRisingHazard",
+  "newName" : "updateGreatFire",
+  "description" : "Rename cGame class's updateRisingHazard() method to updateGreatFire"
+}

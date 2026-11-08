@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 468,
+  "reasoning" : "Draws the shaking, gem rain, credits after winning the game.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "drawIntroSequence",
+  "newName" : "drawGameWonSequence",
+  "description" : "Rename cGame class's drawIntroSequence() method to drawGameWonSequence"
+}

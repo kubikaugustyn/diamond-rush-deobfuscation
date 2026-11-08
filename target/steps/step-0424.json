@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 424,
+  "reasoning" : "Called to configure the state for the Evil Teutonic Knight boss in loadLevelData(), Bavaria, Stage 10 (index 9)",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "configureSpecialLevel",
+  "newName" : "configureEvilKnightStage",
+  "description" : "Rename cGame class's configureSpecialLevel() method to configureEvilKnightStage"
+}

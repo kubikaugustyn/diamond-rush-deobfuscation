@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 446,
+  "reasoning" : "Draws the Icicle tile animation",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "prepareSprite27TileAnim",
+  "newName" : "prepareIcicleTileDraw",
+  "description" : "Rename cGame class's prepareSprite27TileAnim() method to prepareIcicleTileDraw"
+}

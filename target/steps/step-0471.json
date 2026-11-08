@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 471,
+  "reasoning" : "Load a common sprite from cm.f.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "loadCmSprite",
+  "newName" : "loadCommonSprite",
+  "description" : "Rename cGame class's loadCmSprite() method to loadCommonSprite"
+}

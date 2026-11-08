@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 436,
+  "reasoning" : "Draws the Yeti boss in Siberia.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_183",
+  "newName" : "drawYeti",
+  "description" : "Rename cGame class's method_183() method to drawYeti"
+}

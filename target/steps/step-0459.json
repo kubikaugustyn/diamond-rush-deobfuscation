@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 459,
+  "reasoning" : "Draws the Grappling hook, a line ending with o.f's chunk 1, module 0 or 1 (right and left). It is just the line (rope) with an end, the player is animated to show the rest.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_198",
+  "newName" : "drawGrapplingHook",
+  "description" : "Rename cGame class's method_198() method to drawGrapplingHook"
+}

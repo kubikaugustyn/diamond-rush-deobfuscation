@@ -602,7 +602,7 @@ public final class DemoInterpreter {
                 short var3 = (short) cGame.getShortFromBytes(var1, var2 + 2);
                 short var4 = (short) cGame.getShortFromBytes(var1, var2 + 4);
                 int var13 = cGame.getI32FromBytes(var1, var2 + 6);
-                cGame.field_333[var3][var4] = var13;
+                cGame.mapBackgroundLayer[var3][var4] = var13;
                 var1[var2 + 1] = 1;
                 return;
             case 27:

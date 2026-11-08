@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 425,
+  "reasoning" : "Called to configure the state for the Yeti boss in loadLevelData(), Siberia, Stage 11 (index 10)",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "resetBossState",
+  "newName" : "configureYetiStage",
+  "description" : "Rename cGame class's resetBossState() method to configureYetiStage"
+}

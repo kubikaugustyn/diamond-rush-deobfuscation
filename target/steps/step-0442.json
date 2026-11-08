@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 442,
+  "reasoning" : "The global Trapdoor switch state 'velocity' - -1: moving towards the blue state, 1: moving towards red, 0: no change",
+  "className" : "cGame",
+  "oldName" : "field_311",
+  "newName" : "currentSwitchStateVelocity",
+  "description" : "Rename cGame class's field_311 field to currentSwitchStateVelocity"
+}

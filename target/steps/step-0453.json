@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 453,
+  "reasoning" : "The stage's foreground layer.",
+  "className" : "cGame",
+  "oldName" : "field_335",
+  "newName" : "mapForegroundLayer",
+  "description" : "Rename cGame class's field_335 field to mapForegroundLayer"
+}

@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 418,
+  "reasoning" : "Whether the 'pass level' cheat is enabled.",
+  "className" : "cGame",
+  "oldName" : "field_436",
+  "newName" : "enablePassLevelCheat",
+  "description" : "Rename cGame class's field_436 field to enablePassLevelCheat"
+}

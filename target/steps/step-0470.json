@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 470,
+  "reasoning" : "Load the Great Anaconda boss sprite from b0.f.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "loadAngkorBossSprite",
+  "newName" : "loadGreatAnacondaSprite",
+  "description" : "Rename cGame class's loadAngkorBossSprite() method to loadGreatAnacondaSprite"
+}

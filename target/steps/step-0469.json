@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 469,
+  "reasoning" : "Load the Great Fire special stage sprite from mm0.f.",
+  "className" : "cGame",
+  "signature" : [ "int" ],
+  "oldName" : "loadMm0Sprite",
+  "newName" : "loadGreatFireSprite",
+  "description" : "Rename cGame class's loadMm0Sprite() method to loadGreatFireSprite"
+}

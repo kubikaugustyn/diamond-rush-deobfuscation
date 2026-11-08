@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 438,
+  "reasoning" : "Draws the Evil Teutonic Knight in Bavaria.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_182",
+  "newName" : "drawEvilKnight",
+  "description" : "Rename cGame class's method_182() method to drawEvilKnight"
+}

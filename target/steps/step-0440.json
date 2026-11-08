@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 440,
+  "reasoning" : "It is a Snake entity for tile types 19 and 43, not a 'walker'",
+  "className" : "cGame",
+  "signature" : [ "byte" ],
+  "oldName" : "prepareWalkerTileDraw",
+  "newName" : "prepareSnakeTileDraw",
+  "description" : "Rename cGame class's prepareWalkerTileDraw() method to prepareSnakeTileDraw"
+}

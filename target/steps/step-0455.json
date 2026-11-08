@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 455,
+  "reasoning" : "The Spike tile - slow group - animated height extended. Background layer bits: 0-2 - 3 means facing down, otherwise up; 3 - 0 means slow, 1 means fast.",
+  "className" : "cGame",
+  "oldName" : "field_218",
+  "newName" : "slowSpikeHeight",
+  "description" : "Rename cGame class's field_218 field to slowSpikeHeight"
+}

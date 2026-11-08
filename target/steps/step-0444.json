@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 444,
+  "reasoning" : "The global Trapdoor switch state saved for a checkpoint",
+  "className" : "cGame",
+  "oldName" : "field_312",
+  "newName" : "savedCurrentSwitchState",
+  "description" : "Rename cGame class's field_312 field to savedCurrentSwitchState"
+}

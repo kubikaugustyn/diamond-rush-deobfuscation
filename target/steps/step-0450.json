@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 450,
+  "reasoning" : "Draws the Turtle entity tile.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "prepareSprite38TileDraw",
+  "newName" : "prepareTurtleTileDraw",
+  "description" : "Rename cGame class's prepareSprite38TileDraw() method to prepareTurtleTileDraw"
+}

@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 462,
+  "reasoning" : "Updates the special Demo stage's star animation.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "checkPlayerTileTriggers",
+  "newName" : "updateDemoStageStarAnimation",
+  "description" : "Rename cGame class's checkPlayerTileTriggers() method to updateDemoStageStarAnimation"
+}

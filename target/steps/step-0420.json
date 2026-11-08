@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 420,
+  "reasoning" : "The game state before opening the cheat page. If it is 1, e.g., the game state 1, it means the game is playing in a stage. Checked because the weapons cannot be changed when playing in a stage.",
+  "className" : "cGame",
+  "oldName" : "field_224",
+  "newName" : "preCheatPageGameState",
+  "description" : "Rename cGame class's field_224 field to preCheatPageGameState"
+}

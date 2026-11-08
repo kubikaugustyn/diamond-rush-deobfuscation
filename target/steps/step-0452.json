@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 452,
+  "reasoning" : "The stage's background layer, with some caveats as mentioned with the player layer.",
+  "className" : "cGame",
+  "oldName" : "field_333",
+  "newName" : "mapBackgroundLayer",
+  "description" : "Rename cGame class's field_333 field to mapBackgroundLayer"
+}

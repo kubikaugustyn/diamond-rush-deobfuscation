@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 432,
+  "reasoning" : "Draws the Great Fire special stage's particles, including the falling dirt.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_187",
+  "newName" : "drawGreatFire",
+  "description" : "Rename cGame class's method_187() method to drawGreatFire"
+}

@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 456,
+  "reasoning" : "The Spike tile - fast group - animated height extended.",
+  "className" : "cGame",
+  "oldName" : "field_220",
+  "newName" : "fastSpikeHeight",
+  "description" : "Rename cGame class's field_220 field to fastSpikeHeight"
+}

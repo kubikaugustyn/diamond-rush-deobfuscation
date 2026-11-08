@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 447,
+  "reasoning" : "Draws the Monkey entity tile",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_203",
+  "newName" : "prepareMonkeyTileDraw",
+  "description" : "Rename cGame class's method_203() method to prepareMonkeyTileDraw"
+}

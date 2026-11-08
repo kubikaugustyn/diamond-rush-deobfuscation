@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 449,
+  "reasoning" : "Draws the Laser emitter entity tile.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "prepareSlidingTileDraw",
+  "newName" : "prepareLaserEmitterTileDraw",
+  "description" : "Rename cGame class's prepareSlidingTileDraw() method to prepareLaserEmitterTileDraw"
+}

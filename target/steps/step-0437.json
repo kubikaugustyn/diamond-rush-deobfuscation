@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 437,
+  "reasoning" : "Draws the special stage's overlay - special features, like bosses.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "drawStateOverlay",
+  "newName" : "drawSpecialStageOverlay",
+  "description" : "Rename cGame class's drawStateOverlay() method to drawSpecialStageOverlay"
+}

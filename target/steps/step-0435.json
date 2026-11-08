@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 435,
+  "reasoning" : "The special stage number - 0: normal, 1: Great Fire in Angkor Wat, 2: Demo in Angkor Wat, 3: Yeti boss in Siberia, 4: Great Anaconda boss in Angkor Wat, 5: Evil Teutonic Knight in Bavaria.",
+  "className" : "cGame",
+  "oldName" : "field_174",
+  "newName" : "specialStageNumber",
+  "description" : "Rename cGame class's field_174 field to specialStageNumber"
+}

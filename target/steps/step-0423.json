@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 423,
+  "reasoning" : "Called from returnToPreviousState, so it's not unique to the cheat page",
+  "className" : "cGame",
+  "oldName" : "preCheatPageGameState",
+  "newName" : "previousGameState",
+  "description" : "Rename cGame class's preCheatPageGameState field to previousGameState"
+}

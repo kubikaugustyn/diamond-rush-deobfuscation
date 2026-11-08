@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 460,
+  "reasoning" : "Updates the special stage.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "updateLevelPhase",
+  "newName" : "updateSpecialStage",
+  "description" : "Rename cGame class's updateLevelPhase() method to updateSpecialStage"
+}

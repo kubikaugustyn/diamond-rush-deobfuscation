@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 428,
+  "reasoning" : "Correction: Called to get the anaconda column index for the Great Anaconda boss to spawn in, not its X position.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "chooseGreatAnacondaColumn",
+  "newName" : "chooseGreatAnacondaColumn",
+  "description" : "Rename cGame class's chooseGreatAnacondaColumn() method to chooseGreatAnacondaColumn"
+}

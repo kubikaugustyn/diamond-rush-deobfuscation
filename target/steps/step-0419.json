@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 419,
+  "reasoning" : "0: none, 1: mystic mallet, 2: mystic hook, 4: blue/mystic potion, 8: freeze mallet",
+  "className" : "cGame",
+  "oldName" : "field_390",
+  "newName" : "availableWeapons",
+  "description" : "Rename cGame class's field_390 field to availableWeapons"
+}

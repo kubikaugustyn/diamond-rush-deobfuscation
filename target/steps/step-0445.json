@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 445,
+  "reasoning" : "Draws a Fireball entity tile, 'sticking' the fireball to the wall it is currently on.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_197",
+  "newName" : "prepareFireballTileDraw",
+  "description" : "Rename cGame class's method_197() method to prepareFireballTileDraw"
+}

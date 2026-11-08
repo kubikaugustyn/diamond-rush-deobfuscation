@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 439,
+  "reasoning" : "Draws the Demo special stage's seal *tile* - frames 1-28 in mmv.f, chunk 1 (#0). Equation: `4 + (tileY - 2) * 5 + tileX - 60`",
+  "className" : "cGame",
+  "signature" : [ "javax.microedition.lcdui.Graphics" ],
+  "oldName" : "method_181",
+  "newName" : "drawDemoStageSealTile",
+  "description" : "Rename cGame class's method_181() method to drawDemoStageSealTile"
+}

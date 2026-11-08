@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 464,
+  "reasoning" : "Updates the Yeti boss stage/AI.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_282",
+  "newName" : "updateYeti",
+  "description" : "Rename cGame class's method_282() method to updateYeti"
+}

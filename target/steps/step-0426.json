@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 426,
+  "reasoning" : "Called to add the gems from the chest to the inventory, add the keys, etc. - called after a chest fully opens",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "applyPickupEffect",
+  "newName" : "applyChestLoot",
+  "description" : "Rename cGame class's applyPickupEffect() method to applyChestLoot"
+}

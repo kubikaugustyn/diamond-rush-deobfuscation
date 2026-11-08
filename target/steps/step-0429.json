@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 429,
+  "reasoning" : "The column index (0, 1, 2, but can go further if the map allows the player to go there) for the Great Anaconda boss.",
+  "className" : "cGame",
+  "oldName" : "field_183",
+  "newName" : "greatAnacondaColumn",
+  "description" : "Rename cGame class's field_183 field to greatAnacondaColumn"
+}

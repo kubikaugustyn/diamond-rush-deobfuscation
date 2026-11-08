@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 463,
+  "reasoning" : "Updates the special Demo stage's seal.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_267",
+  "newName" : "updateDemoStageSeal",
+  "description" : "Rename cGame class's method_267() method to updateDemoStageSeal"
+}

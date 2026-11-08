@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 422,
+  "reasoning" : "Whether secret stages should be unlocked",
+  "className" : "cGame",
+  "oldName" : "field_392",
+  "newName" : "cheatPageUnlockSecretStages",
+  "description" : "Rename cGame class's field_392 field to cheatPageUnlockSecretStages"
+}

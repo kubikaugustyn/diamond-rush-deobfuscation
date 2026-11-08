@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 431,
+  "reasoning" : "Draws the Great Anaconda boss.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "method_186",
+  "newName" : "drawGreatAnaconda",
+  "description" : "Rename cGame class's method_186() method to drawGreatAnaconda"
+}

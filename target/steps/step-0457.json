@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 457,
+  "reasoning" : "The Spike tile - slow group - animated segment count (1-3). It is the number of tiles the spike currently 'allocates'.",
+  "className" : "cGame",
+  "oldName" : "field_219",
+  "newName" : "slowSpikeSegmentCount",
+  "description" : "Rename cGame class's field_219 field to slowSpikeSegmentCount"
+}

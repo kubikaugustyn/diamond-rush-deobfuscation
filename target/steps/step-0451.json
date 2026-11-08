@@ -1,0 +1,10 @@
+{
+  "type" : "rename-method",
+  "number" : 451,
+  "reasoning" : "Draws the Torch tile.",
+  "className" : "cGame",
+  "signature" : [ ],
+  "oldName" : "drawSprite5LoopTile",
+  "newName" : "prepareTorchTileDraw",
+  "description" : "Rename cGame class's drawSprite5LoopTile() method to prepareTorchTileDraw"
+}

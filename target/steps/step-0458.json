@@ -1,0 +1,9 @@
+{
+  "type" : "rename-field",
+  "number" : 458,
+  "reasoning" : "The Spike tile - fast group - animated segment count (1-3).",
+  "className" : "cGame",
+  "oldName" : "field_221",
+  "newName" : "fastSpikeSegmentCount",
+  "description" : "Rename cGame class's field_221 field to fastSpikeSegmentCount"
+}
