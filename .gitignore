@@ -1,6 +1,15 @@
 /source/*.jar
 /.claude/*.local.*
 
+# KEmulator build
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+proguard-local.cfg
+.idea/runConfigurations/
+bin/
+deployed/
+
 ### https://github.com/github/gitignore/blob/main/Java.gitignore
 # Compiled class file
 *.class
